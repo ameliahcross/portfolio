@@ -1,0 +1,24 @@
+#my-pic{
+    border-radius: 50%;
+}
+
+.mar-top-30 {
+    margin-top: 80px;
+}
+
+.mar-right-30{
+    margin-right: 30px;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn {
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+
+  
