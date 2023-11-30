@@ -1,14 +1,27 @@
 * {
     /* background-color: black; */
     font-family: 'Roboto', sans-serif;
-    color: white;
+    /* color: white; */
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.bg-shared {
+    /* Estilos para el fondo compartido */
+    background-image: url('./images/keyboard.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100%;
-    background-color: black; /* Color oscuro para el efecto de opacidad */
-    opacity: 0.5; /* Ajusta la opacidad según lo necesario (0.1 a 1) */
+    min-height: 100vh;
   }
+  
+  .more-about-container {
+    /* Estilos para la sección con el fondo diferente */
+    background-color: white; /* o el color que desees para MoreAbout */
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .title {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  
