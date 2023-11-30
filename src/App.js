@@ -21,6 +21,10 @@ import MoreAbout from './components/MoreAbout';
 // }
 
 function App() {
+  const imgStyle = {
+    maxWidth: '100%', // Establecer un tamaño máximo para la imagen
+    height: 'auto', // Ajustar automáticamente la altura manteniendo la proporción
+  };
   return (
     <div>
       <div className='bg-shared'>

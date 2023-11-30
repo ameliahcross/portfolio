@@ -2,9 +2,21 @@
     color: black !important; 
 }
 
+p {
+    text-align: justify;
+}
+
 .title {
     font-size: 50px;
     font-weight:800;
+    text-align: center;
     color:darkmagenta;
-  }
+}
+
+.brackets {
+    font-size: 50px;
+    font-weight:800;
+    text-align: center;
+    color:#0dcaf0;
+}
 

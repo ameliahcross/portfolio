@@ -5,12 +5,23 @@
 .mar-max{
     margin: 200px 0px 200px 0px;
     padding: 20px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
 }
 
 .mar-right-30 {
     margin-right: 30px;
+}
+
+.name{
+    font-weight:900;
+}
+
+.fields{
+    color: #0dcaf0;
+    font-weight: 900;
+    letter-spacing: 0.7px;
+
 }
 
 #img-container {

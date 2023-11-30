@@ -75,15 +75,15 @@ function About() {
             {/* Texto y botones */}
             <div id='text-container' className="col-12 col-lg-8 col-md-12 ">
               <div className="text-lg-start text-center mt-2">
-                <h1>Amelia Henríquez Cross</h1>
-                <p>UI/UX Designer & Developer | Branding</p>
+                <h1 className='name'>Amelia Henríquez Cross</h1>
+                <span className='fields'>.UI/UXdesigner .developer .branding .handlettering</span>
                 <div id='buttons-container' className='btn-container d-flex flex-column flex-md-row flex-md-row flex-sm-column flex-lg-row col-lg-4 col-md-6 col-sm-12'>
                   <Buttons
                     icon={<FaGraduationCap className='icono-grande'
                             style={{fill:'black', margin: '0 6px 3px 0'}} />}
                     parentClassName="buttons mt-3 me-md-3 col-md-12"
                     childClassName="btn btn-light mt-2"
-                    href='#education'
+                    href='#more-about'
                     nombre='Sobre mi'
                   />
                   <Buttons
