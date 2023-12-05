@@ -10,7 +10,7 @@ import logoUdemy from '../images/logoUdemy.png';
 function MoreAbout() {
   return (
     <section id="more-about">
-      <div className="container">
+      <div className="container mb-more">
         <div className="items-center text-center">
           <div className="row">
             <p className="brackets mt-4"> 
@@ -30,7 +30,6 @@ function MoreAbout() {
               usuario (UI/UX) así como en el desarrollo front-end.
             </p>
           </div>
-          <div className="">
             <p className="brackets mt-4">
                 &#123;
                 <span className="title">Académico</span> 
@@ -74,7 +73,6 @@ function MoreAbout() {
                     text="Instituto Tecnológico de las Américas"
                 />
             </div>
-          </div>
         </div>
       </div>
     </section>

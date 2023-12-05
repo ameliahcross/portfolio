@@ -4,7 +4,7 @@ import '../styles/EducationCards.css';
 function EducationCards(props) {
 
 	return (
-    <div className="col">
+    <div className="col-sm-6">
       <div className="card ">
         <img src={props.image} className="card-img-top card-img" alt={props.imageAlt} style={props.imgStyle}/>
         <div className="card-body ">

@@ -1,0 +1,22 @@
+#habilidades{
+    background-color: #0dcaf0;
+    color: white !important;
+    padding-bottom: 50px;
+}
+
+.title-2 {
+    font-size: 50px;
+    font-weight:800;
+    text-align: center;
+    color:darkmagenta;
+}
+
+.brackets-2 {
+    font-size: 50px;
+    font-weight:800;
+    text-align: center;
+    color:white;
+}
+.mar-right-4 {
+    margin-right: 4px !important;
+}

@@ -9,7 +9,10 @@
     background-image: url('./images/keyboard.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
     width: 100%;
+    /* height: fit-content; */
     min-height: 100vh;
     
   }
@@ -20,3 +23,13 @@
     min-height: 100vh;
   }
   
+  .arrow-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 9999;
+    color: darkmagenta;
+    /* Añade cualquier otro estilo que desees */
+  }

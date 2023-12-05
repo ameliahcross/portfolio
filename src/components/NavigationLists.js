@@ -4,14 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavigationLists(props) {
 	return (
-        <div>
-            <li className={props.className}>
-                <a className={props.className} href={props.href}>
-                    {props.nombre}
-                </a>
-            </li>
-        </div>
-	);
+        <li className={props.className}>
+            <a className={props.className} href={props.href}>
+                {props.nombre}
+            </a>
+        </li>
+    );
 }
 
 export default NavigationLists;
