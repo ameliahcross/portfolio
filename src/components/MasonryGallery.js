@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/MoreAbout.css";
 import "../styles/MasonryGallery.css";
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import { FaArrowCircleLeft ,FaArrowCircleRight } from "react-icons/fa";
 import { IoMdCloseCircle } from "react-icons/io";
-import { alignPropType } from "react-bootstrap/esm/types";
 
 // Arreglo de imagenes
 const images = [
@@ -47,22 +47,46 @@ function MasonryGallery() {
   // = useState(null) = declarando (null) el estado "OpenImage"
   const [openImage, setOpenImage] = useState(null);
 
-  const viewImage = (image) => {
-    setOpenImage(image);
-    console.log(image);
+  const viewImage = (imageIndex) => {
+    setOpenImage(imageIndex);
+    console.log(imageIndex);
   };
 
   const closeImage = () => {
     setOpenImage(null);
   };
-  
+
+  const getIndex = () => {
+    console.log(openImage)
+  };
+
+  const previousImage = (i) => {
+    if (openImage !== null && openImage > 0) {
+      setOpenImage(openImage - 1);
+      
+    }
+    console.log("Previous Image Index:", openImage);
+  }
+
+  const nextImage = () => {
+    if (openImage !== null && openImage < images2.length - 1) {
+      setOpenImage(openImage + 1);
+       console.log("Next Image Index:", openImage + 1);
+    }
+  }
+
   return (
     <>
       {openImage && (
-        <div className="fullscreen-image row" onClick={closeImage}>
+        <div className="fullscreen-image row">
           <div className="close-button col-1" onClick={closeImage}><IoMdCloseCircle /></div>
-          <img src={openImage.url} alt={openImage.pieFoto} className="fullscreen-img" />
-          <p className="">{openImage.pieFoto}</p>
+          <img src={images2[openImage].url} alt={images2[openImage].pieFoto} className="fullscreen-img" />
+          <div className="row">
+            <p className="">{images2[openImage].pieFoto}</p>
+            <button className="col-6 prev-button" onClick={previousImage}> <FaArrowCircleLeft /></button>
+            <button className="col-6 next-button" onClick={nextImage}><FaArrowCircleRight /></button>
+          </div>
+          
         </div>
       )}
       <div style={{ paddingTop: "10px" }}>
@@ -74,7 +98,7 @@ function MasonryGallery() {
                 src={image.url}
                 alt={image.pieFoto}
                 className="gallery-image"
-                onClick={() => viewImage(image)}
+                onClick={() => viewImage(i)}
               />
             ))}
           </Masonry>
