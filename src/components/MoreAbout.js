@@ -1,9 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/MoreAbout.css";
-import Buttons from "./Buttons";
 import EducationCards from "./EducationCards";
 import logoUnibe from '../images/logoUnibe.png';
-import logoItla from '../images/logoItla.webp';
+import logoItla from '../images/itlalogo.webp';
 import logoSQD from '../images/logoSDQ.jpeg';
 import logoUdemy from '../images/logoUdemy.png';
 
@@ -15,61 +14,59 @@ function MoreAbout() {
           <div className="row">
             <p className="brackets mt-4"> 
                 &#123;
-                <span className="title">Sobre mi</span> 
+                <span className="title">About me</span> 
                 &#125;
             </p>
             <p>
-              Graduada de Comunicación Publicitaria en la Universidad
-              Iberoaméricana de Santo Domingo. Actualmente cursando la carrera
-              de Desarrollo de Software en el Instituto Tecnológico de Las
-              Américas. Desde los inicios de mi primera carrera me incliné hacia
-              el área del diseño gráfico, concentrando mis labores en el
-              branding y creación de contenido multimedia. <br />
+              Graduated in Advertising Communications from Universidad Iberoamericana de Santo Domingo.
+              Currently pursuing a technical degree in Software Development at Instituto Tecnológico de Las Américas.
+              From the early steps of my first career, I gravitated towards the field of graphic design,
+              centering on branding and multimedia content creation. <br />
               <br />
-              Actualmente me enfoco en el diseño de interfaces y experiencia de
-              usuario (UI/UX) así como en el desarrollo front-end.
+              My current focus lies on interface design and user experience (UI/UX), as well as front-end development.
             </p>
           </div>
             <p className="brackets mt-4">
                 &#123;
-                <span className="title">Académico</span> 
+                <span className="title">Education</span> 
                 &#125;
             </p>
             <div className="row row-cols-1 row-cols-md-3 row-cols-xs-3 g-4 mt-2">
                 <EducationCards
                     image={logoItla}
                     imageAlt="logo-itla"
-                    title="Tecnólogo en Desarrollo de Software"
+                    title="Software Development Technical Degree "
                     text="Instituto Tecnológico de las Américas"
+                    // span="In progress"
                 />
                 <EducationCards
                     image={logoUnibe}
                     imageAlt="logo-unibe"
-                    title="Licenciatura en Comunicación Publicitaria"
+                    title="Bachelor's Degree in Advertising Communication"
                     text="Universidad Iberoamericana"
                 />
                 <EducationCards
                     image={logoSQD}
                     imageAlt="logo-sdq"
-                    title="Curso de Introducción a la Programación"
+                    title="Introduction to Programming"
                     text="SDQ Training Center"
                 />
                 <EducationCards
                     image={logoSQD}
                     imageAlt="logo-sdq"
-                    title="Curso de Diseño de sitios Web con HML5 & CSS3"
+                    title="HML5 & CSS3 Web Design Course"
                     text="SDQ Training Center"
                 />
                  <EducationCards
                     image={logoUdemy}
                     imageAlt="logo-udemy"
-                    title="Curso Universidad CSS 2021"
+                    title="CSS University Course 2021"
                     text="UDEMY"
                 />
                 <EducationCards
                     image={logoItla}
                     imageAlt="logo-itla"
-                    title="Diplomado en Programación Web con Javascript"
+                    title="Web Programming with Javascript"
                     text="Instituto Tecnológico de las Américas"
                 />
             </div>

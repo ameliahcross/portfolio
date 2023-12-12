@@ -53,16 +53,6 @@
   text-align: center; /* Alinea el texto al centro */
 }
 
-/* @media (min-width: 1000px)  {
-  .fullscreen-image p {
-    border: 3px solid violet;
-    color: white;
-    display: block;
-    text-align: center; 
-    
-  }
-} */
-
 .close-button {
   /* border: 3px solid green !important; */
   position: absolute;
@@ -88,11 +78,3 @@
   padding: 0;
   cursor: pointer;
 }
-
-/* .prev-button {
-  transform: translate(20%, -50%);
-}
-.next-button {
-  transform: translate(-20%, -50%);
-}
- */

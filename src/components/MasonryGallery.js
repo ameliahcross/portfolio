@@ -6,9 +6,9 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import { FaArrowCircleLeft ,FaArrowCircleRight } from "react-icons/fa";
 import { IoMdCloseCircle } from "react-icons/io";
 import anxietin from '../images/anxietin.png';
-import ui_1 from '../images/location_app_ui_start.png';
+import ui_1 from '../images/location_ui_high.png';
 import ui_2 from '../images/location_app_ui_front.png';
-import ui_3 from '../images/perspective_ui.png';
+import card3 from '../images/card_ana.png';
 import anxiologica_cards from '../images/anxiologica_cards.png';
 import into_lettering from '../images/into_lettering.png';
 import card1 from '../images/miguel.png';
@@ -19,68 +19,117 @@ import senaletica from '../images/senaletica.png';
 import violet from '../images/violetcharm.png';
 import venaver from '../images/venaver_branding.png';
 import arcadia from '../images/socual_media.png';
+import hablamoelmarte from '../images/hablamoelmarte.png';
+import enplan from '../images/enplan.png';
+import majavi_mobile from '../images/majavi_mobile_high.png';
+import majavi_print from '../images/majavi_menu_2.png';
+import lettering from '../images/coffee_lettering.png'
+import paginasA_redes from '../images/paginas-movil.jpg';
+import paginasA_imac from '../images/paginas-ui2_high.jpg';
+import paginasA_macbook from '../images/paginasA_macbook.jpg';
+import purple_ui from '../images/purple_ui.png';
+import optica from '../images/optica.png';
 
 // Arreglo de imagenes
 
 const images2 = [
   {
     url: anxietin,
-    pieFoto: "Este es el pie de foto de mi primer objeto de imagen",
+    pieFoto: "Branding | Therapist - Anxiety Disorders",
   },
   {
     url: ui_1,
-    pieFoto: "Este es el pie de foto de mi segundo objeto de imagen",
+    pieFoto: "UI/UX | SD App - Navigation Services",
   },
   {
     url: ui_2,
-    pieFoto: "Este es el pie de foto de mi tercer objeto de imagen",
+    pieFoto: "UI/UX | SD App - Navigation Services",
   },
   {
-    url: ui_3,
-    pieFoto: "Este es el pie de foto de mi cuarto objeto de imagen",
+    url: paginasA_redes,
+    pieFoto: "Social Media Content and Design | Yellow Pages",
+  },
+  {
+    url: hablamoelmarte,
+    pieFoto: "Handlettering | Mental Health Podcast",
   },
   {
     url: venaver,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
-  },
-  {
-    url: anxiologica_cards,
-    pieFoto: "Este es el pie de foto de mi quinto objeto de imagen",
-  },
-  {
-    url: senaletica,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
-  },
-  {
-    url: insumisas,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+    pieFoto: "Branding | Venaver App - eCommerce",
   },
   {
     url: card1,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+    pieFoto: "Branding | Business Card - Electrical Engineer",
+  },
+  {
+    url: paginasA_macbook,
+    pieFoto: "UI | Landing Page - Yellow Pages",
+  },
+  {
+    url: senaletica,
+    pieFoto: "Signage | Plaza de la Cultura",
   },
   {
     url: into_lettering,
-    pieFoto: "Este es el pie de foto de mi sexto objeto de imagen",
-  },
-  {
-    url: violet,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+    pieFoto: "Branding | Into Lettering - My handlettering name",
   },
   {
     url: arcadia,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+    pieFoto: "Social Media Content and Design | Arcadia - Online Perfume Shopping",
   },
-
   {
-    url: brascaribe,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+    url: insumisas,
+    pieFoto: "Branding | Insumisas - Women's Rights Podcast",
+  },
+  {
+    url: enplan,
+    pieFoto: "Branding | En Plan App - Delivery Services",
+  },
+  {
+    url: anxiologica_cards,
+    pieFoto: "Branding | Business Card Therapist - Anxiety Disorders",
+  },
+  {
+    url: purple_ui,
+    pieFoto: "UI/UX | SD App - Navigation Services",
+  },
+  // {
+  //   url: brascaribe,
+  //   pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+  // },
+  {
+    url: optica,
+    pieFoto: "Logo Redesign | Optometry Clinic / Eyewear Store",
+  },
+  {
+    url: violet,
+    pieFoto: "Branding | Costume Jewelry Store",
   },
   {
     url: card2,
-    pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
+    pieFoto: "Branding | Business Card - Catering and Food Services",
   },
- 
+  {
+    url: paginasA_imac,
+    pieFoto: "UI | Landing Page - Yellow Pages",
+  },
+  {
+    url: majavi_mobile,
+    pieFoto: "Branding | UI | Majavi - Restaurant Mobile Menu",
+  },
+  {
+    url: majavi_print,
+    pieFoto: "Branding | Majavi - Restaurant Menu",
+  }, 
+  {
+    url: lettering,
+    pieFoto: "Handlettering",
+  },
+  {
+    url: card3,
+    pieFoto: "Branding | Business Card - Attorney and Notary Public"
+  },
+  
 ];
 
 function MasonryGallery() {
@@ -125,7 +174,6 @@ function MasonryGallery() {
             <button className="col-6 prev-button" onClick={previousImage}> <FaArrowCircleLeft /></button>
             <button className="col-6 next-button" onClick={nextImage}><FaArrowCircleRight /></button>
           </div>
-          
         </div>
       )}
       <div style={{ paddingTop: "10px" }}>

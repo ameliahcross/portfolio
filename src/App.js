@@ -2,10 +2,11 @@ import './App.css';
 import Navigation from './components/Navigation';
 import About from './components/About';
 import Habilidades from './components/Habilidades';
+import MoreAbout from './components/MoreAbout';
 import Portafolio from './components/Portafolio';
+import Contacto from './components/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
-import MoreAbout from './components/MoreAbout';
 import { FaCircleArrowUp } from "react-icons/fa6";
 import { useState, useEffect } from 'react';
 
@@ -44,6 +45,7 @@ function App() {
         <MoreAbout/>
         <Habilidades/>
         <Portafolio/>
+        <Contacto/>
       </div>
     </div>
   );

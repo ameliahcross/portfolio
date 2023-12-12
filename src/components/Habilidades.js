@@ -9,13 +9,12 @@ import { SiAdobexd, SiAdobeillustrator,  SiAdobephotoshop} from "react-icons/si"
 import { GrMysql } from "react-icons/gr";
 
 function Habilidades() {
-    const progressBarClass = "mt-2";
   return (
     <section id="habilidades">
       <div className="container py-4 pb-4">
-        <p className="brackets-2">
+        <p className="brackets-2 mt-4">
           &#123;
-          <span className="title-2">Habilidades</span>
+          <span className="title">Skills</span>
           &#125;
         </p>
         <div className="row skill-info">
@@ -66,7 +65,7 @@ function Habilidades() {
           </div>
           <div className="col-sm-6 col-lg-3 mt-2">
             <GrMysql size={30} className="m-1" />
-                MySQL
+            MySQL
             <ProgressBar animated now={70} className="mt-2" />
           </div>
         </div>

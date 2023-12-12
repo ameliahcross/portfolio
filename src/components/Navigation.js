@@ -1,4 +1,3 @@
-import { FaArrowRight } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Navigation.css';
 import NavigationLists from "./NavigationLists.js";
@@ -12,7 +11,7 @@ function Navigation() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark fixed-top-nav">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">H O L A !</a>
+				<a className="navbar-brand" href="#">Hello</a>
 				<button onClick={hamburgerClick} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
@@ -22,19 +21,19 @@ function Navigation() {
 						<NavigationLists
 							className='nav-link'
 							href='#more-about'
-							nombre='Sobre Mi'/>
+							nombre='About me'/>
 						<NavigationLists
 							className='nav-link'
 							href='#habilidades'
-							nombre='Habilidades'/>
+							nombre='Skills'/>
 						<NavigationLists
 							className='nav-link'
 							href='#portafolio'
-							nombre='Proyectos'/>
+							nombre='Portfolio'/>
 						<NavigationLists
 							className='nav-link'
-							href='#portafolio'
-							nombre='Contacto'/>
+							href='#contacto'
+							nombre='Contact me'/>
 					</ul>
 				</div>
 			</div>

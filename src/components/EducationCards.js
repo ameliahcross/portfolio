@@ -12,6 +12,9 @@ function EducationCards(props) {
           <div className="card-text">
             {props.text}
           </div>
+          <span>
+            {props.span}
+          </span>
         </div>
       </div>
     </div>

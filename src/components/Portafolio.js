@@ -5,20 +5,19 @@ import MasonryGallery from "./MasonryGallery";
 
 function Portafolio() {
   return (
-    <section id="portafolio">
+    <section id="portafolio" className="pb-4 mb-4">
       <div className="container mb-more">
         <div className="items-center text-center">
           <div className="row">
             <p className="brackets mt-4"> 
                   &#123;
-                  <span className="title">Portafolio</span> 
+                  <span className="title">Portfolio</span> 
                   &#125;
             </p>
            <MasonryGallery/>
           </div>
         </div>
       </div>
-      {/* ... El resto del código del lightbox ... */}
     </section>
   );
 }
