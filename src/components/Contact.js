@@ -22,7 +22,6 @@ function Contact() {
                 <a href="www.linkedin.com/in/ameliahcross"><FaLinkedin size={30} fill="white" className="m-4" /></a>
             </div>
         </div>
-        
       </div>
     </section>
   );
