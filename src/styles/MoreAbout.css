@@ -11,7 +11,14 @@ p {
     font-size: 50px;
     font-weight:800;
     text-align: center;
-    color:darkmagenta;
+    color:white;
+}
+
+.title-b {
+    font-size: 50px;
+    font-weight:800;
+    text-align: center;
+    color:black;
 }
 
 .brackets {

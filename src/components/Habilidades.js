@@ -3,8 +3,10 @@ import "../styles/Habilidades.css";
 import { ProgressBar } from "react-bootstrap";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { DiJqueryLogo } from "react-icons/di";
+import { SiCsharp } from "react-icons/si";
+import { DiJqueryLogo, DiDotnet } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa6";
+import { PiFileSqlFill } from "react-icons/pi";
 import { SiAdobexd, SiAdobeillustrator,  SiAdobephotoshop} from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
@@ -41,13 +43,13 @@ function Habilidades() {
           <div className="col-sm-6 col-lg-3 mt-2">
             <FaCss3Alt size={30} className="m-1" />
             CSS
-            <ProgressBar animated now={70} className="mt-2" />
+            <ProgressBar animated now={80} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          {/* <div className="col-sm-6 col-lg-3 mt-2">
             <IoLogoJavascript size={30} className="m-1" />
             JavaScript
             <ProgressBar animated now={70} className="mt-2" />
-          </div>
+          </div> */}
           <div className="col-sm-6 col-lg-3 mt-2">
             <DiJqueryLogo size={30} className="m-1" />
             jQuery
@@ -56,7 +58,7 @@ function Habilidades() {
           <div className="col-sm-6 col-lg-3 mt-2">
             <FaReact size={30} className="m-1" />
             React JS
-            <ProgressBar animated now={40} className="mt-2" />
+            <ProgressBar animated now={50} className="mt-2" />
           </div>
           <div className="col-sm-6 col-lg-3 mt-2">
             <FaGitAlt size={30} className="m-1" />
@@ -64,9 +66,19 @@ function Habilidades() {
             <ProgressBar animated now={90} className="mt-2" />
           </div>
           <div className="col-sm-6 col-lg-3 mt-2">
-            <GrMysql size={30} className="m-1" />
-            MySQL
-            <ProgressBar animated now={70} className="mt-2" />
+            <PiFileSqlFill size={30} className="m-1" />
+            SQL
+            <ProgressBar animated now={60} className="mt-2" />
+          </div>
+          <div className="col-sm-6 col-lg-3 mt-2">
+            <SiCsharp size={30} className="m-1" />
+            C#
+            <ProgressBar animated now={60} className="mt-2" />
+          </div>
+          <div className="col-sm-6 col-lg-3 mt-2">
+            <DiDotnet size={30} className="m-1" />
+            ASP.NET Core (MVC)
+            <ProgressBar animated now={60} className="mt-2" />
           </div>
         </div>
       </div>

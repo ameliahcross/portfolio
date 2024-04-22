@@ -14,7 +14,7 @@ function MoreAbout() {
           <div className="row">
             <p className="brackets mt-4"> 
                 &#123;
-                <span className="title">About me</span> 
+                <span className="title-b">About me</span> 
                 &#125;
             </p>
             <p>
@@ -23,12 +23,12 @@ function MoreAbout() {
               From the early steps of my first career, I gravitated towards the field of graphic design,
               centering on branding and multimedia content creation. <br />
               <br />
-              My current focus lies on interface design and user experience (UI/UX), as well as front-end development.
+              My current focus lies on user interface design (UI) and software development.
             </p>
           </div>
             <p className="brackets mt-4">
                 &#123;
-                <span className="title">Education</span> 
+                <span className="title-b">Education</span> 
                 &#125;
             </p>
             <div className="row row-cols-1 row-cols-md-3 row-cols-xs-3 g-4 mt-2">

@@ -11,7 +11,7 @@ function Portafolio() {
           <div className="row">
             <p className="brackets mt-4"> 
                   &#123;
-                  <span className="title">Portfolio</span> 
+                  <span className="title-b">Portfolio</span> 
                   &#125;
             </p>
            <MasonryGallery/>

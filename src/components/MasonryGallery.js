@@ -151,7 +151,7 @@ function MasonryGallery() {
   const previousImage = (i) => {
     if (openImage !== null && openImage > 0) {
       setOpenImage(openImage - 1);
-      
+       
     }
     console.log("Previous Image Index:", openImage);
   }
