@@ -53,6 +53,10 @@ const images2 = [
     pieFoto: "UI/UX | SD App - Navigation Services",
   },
   {
+    url: streaming,
+    pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",
+  },
+  {
     url: paginasA_redes,
     pieFoto: "Social Media Content and Design | Yellow Pages",
   },
@@ -84,10 +88,7 @@ const images2 = [
     url: into_lettering,
     pieFoto: "Branding | Into Lettering - My handlettering name",
   },
-  {
-    url: streaming,
-    pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",
-  },
+ 
   {
     url: streaming_mobile,
     pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",

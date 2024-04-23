@@ -26,7 +26,7 @@ ul{
 .navbar-nav .nav-item .nav-link {
     position: relative;
     text-decoration: none;
-    color: #858585;
+    color: #ffffff;
     border-bottom: 4px solid transparent; /* línea transparente por defecto */
     transition: border-color 0.3s; /* transición */
   }

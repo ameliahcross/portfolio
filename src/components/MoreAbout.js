@@ -19,10 +19,8 @@ function MoreAbout() {
             </p>
             <p>
               Graduated in Advertising Communications from Universidad Iberoamericana de Santo Domingo.
-              Currently pursuing a technical degree in Software Development at Instituto Tecnológico de Las Américas.
-              From the early steps of my first career, I gravitated towards the field of graphic design,
-              centering on branding and multimedia content creation. <br />
-              <br />
+              
+              Now pursuing a technical degree in Software Development at Instituto Tecnológico de Las Américas.
               My current focus lies on user interface design (UI) and software development.
             </p>
           </div>
