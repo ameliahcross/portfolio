@@ -13,12 +13,10 @@ import anxiologica_cards from '../images/anxiologica_cards.png';
 import into_lettering from '../images/into_lettering.png';
 import card1 from '../images/miguel.png';
 import card2 from '../images/saleo.png';
-import brascaribe from '../images/brascaribe.png';
 import insumisas from '../images/insumisas.png';
 import senaletica from '../images/senaletica.png';
 import violet from '../images/violetcharm.png';
 import venaver from '../images/venaver_branding.png';
-import arcadia from '../images/socual_media.png';
 import hablamoelmarte from '../images/hablamoelmarte.png';
 import enplan from '../images/enplan.png';
 import majavi_mobile from '../images/majavi_mobile_high.png';
@@ -29,10 +27,19 @@ import paginasA_imac from '../images/paginas-ui2_high.jpg';
 import paginasA_macbook from '../images/paginasA_macbook.jpg';
 import purple_ui from '../images/purple_ui.png';
 import optica from '../images/optica.png';
+import ferreteria from '../images/ui_ferreteria_mobile.png';
+import cajero from '../images/cajero_digital_dotnet.png';
+import streaming from '../images/itla_tv_desktop.png';
+import streaming_mobile from '../images/itla_tv_management_mobile.png';
+import bookstore from '../images/bookstore_mobile.png';
 
 // Arreglo de imagenes
 
 const images2 = [
+  {
+    url: ferreteria,
+    pieFoto: "UI/UX | Stock App - Hardware Store",
+  },
   {
     url: anxietin,
     pieFoto: "Branding | Therapist - Anxiety Disorders",
@@ -52,6 +59,10 @@ const images2 = [
   {
     url: hablamoelmarte,
     pieFoto: "Handlettering | Mental Health Podcast",
+  },
+  {
+    url: cajero,
+    pieFoto: "UI/UX, software developement | Digital ATM - ASP .NET CORE",
   },
   {
     url: venaver,
@@ -74,8 +85,12 @@ const images2 = [
     pieFoto: "Branding | Into Lettering - My handlettering name",
   },
   {
-    url: arcadia,
-    pieFoto: "Social Media Content and Design | Arcadia - Online Perfume Shopping",
+    url: streaming,
+    pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",
+  },
+  {
+    url: streaming_mobile,
+    pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",
   },
   {
     url: insumisas,
@@ -97,6 +112,10 @@ const images2 = [
   //   url: brascaribe,
   //   pieFoto: "Este es el pie de foto de mi septimo objeto de imagen",
   // },
+  {
+    url: bookstore,
+    pieFoto: "UI/UX, software developement | Bookstore App - PHP",
+  },
   {
     url: optica,
     pieFoto: "Logo Redesign | Optometry Clinic / Eyewear Store",
