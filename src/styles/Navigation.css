@@ -27,8 +27,8 @@ ul{
     position: relative;
     text-decoration: none;
     color: #ffffff;
-    border-bottom: 4px solid transparent; /* línea transparente por defecto */
-    transition: border-color 0.3s; /* transición */
+    border-bottom: 4px solid transparent; 
+    transition: border-color 0.3s; 
   }
 
 .navbar-nav .nav-item .nav-link:hover {

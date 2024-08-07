@@ -20,8 +20,8 @@ function MoreAbout() {
             <p>
               Graduated in Advertising Communications from Universidad Iberoamericana de Santo Domingo.
               
-              Now pursuing a technical degree in Software Development at Instituto Tecnológico de Las Américas.
-              My current focus lies on user interface design (UI) and software development.
+              Now pursuing a technical degree in Software Development at Instituto Tecnológico de Las Américas (ITLA).
+              My current focus lies on web developement and UI/UX design.
             </p>
           </div>
             <p className="brackets mt-4">
@@ -35,7 +35,7 @@ function MoreAbout() {
                     imageAlt="logo-itla"
                     title="Software Development Technical Degree "
                     text="Instituto Tecnológico de las Américas"
-                    // span="In progress"
+                    span="In progress"
                 />
                 <EducationCards
                     image={logoUnibe}

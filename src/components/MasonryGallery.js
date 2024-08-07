@@ -78,7 +78,7 @@ const images2 = [
   },
   {
     url: paginasA_macbook,
-    pieFoto: "UI | Landing Page - Yellow Pages",
+    pieFoto: "UI/UX | Landing Page - Yellow Pages",
   },
   {
     url: senaletica,
@@ -131,7 +131,7 @@ const images2 = [
   },
   {
     url: paginasA_imac,
-    pieFoto: "UI | Landing Page - Yellow Pages",
+    pieFoto: "UI/UX | Landing Page - Yellow Pages",
   },
   {
     url: majavi_mobile,

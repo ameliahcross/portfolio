@@ -68,17 +68,17 @@ function Habilidades() {
           <div className="col-sm-6 col-lg-3 mt-2">
             <PiFileSqlFill size={30} className="m-1" />
             SQL
-            <ProgressBar animated now={60} className="mt-2" />
+            <ProgressBar animated now={70} className="mt-2" />
           </div>
           <div className="col-sm-6 col-lg-3 mt-2">
             <SiCsharp size={30} className="m-1" />
             C#
-            <ProgressBar animated now={60} className="mt-2" />
+            <ProgressBar animated now={70} className="mt-2" />
           </div>
           <div className="col-sm-6 col-lg-3 mt-2">
             <DiDotnet size={30} className="m-1" />
             ASP.NET Core (MVC)
-            <ProgressBar animated now={60} className="mt-2" />
+            <ProgressBar animated now={80} className="mt-2" />
           </div>
         </div>
       </div>
