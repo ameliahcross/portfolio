@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Habilidades.css";
 import { ProgressBar } from "react-bootstrap";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { IoLogoFigma } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiCsharp } from "react-icons/si";
 import { DiJqueryLogo, DiDotnet } from "react-icons/di";
@@ -24,6 +25,11 @@ function Habilidades() {
             <SiAdobexd size={30} className="m-1 mar-right-4" />
             Adobe XD
             <ProgressBar animated now={100} className="mt-2" />
+          </div>
+          <div className="col-sm-6 col-lg-3 mt-2">
+            <IoLogoFigma size={30} className="m-1 mar-right-4" />
+            Figma
+            <ProgressBar animated now={90} className="mt-2" />
           </div>
           <div className="col-sm-6 col-lg-3 mt-2">
             <SiAdobeillustrator size={30} className="m-1" />
