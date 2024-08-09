@@ -1,0 +1,30 @@
+#more-about{
+    color: black !important; 
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+.title {
+    font-size: 35px;
+    font-weight:800;
+    text-align: center;
+    color:white;
+}
+
+.title-b {
+    font-size: 35px;
+    font-weight:800;
+    text-align: center;
+    color:black;
+}
+
+.brackets {
+    font-size: 35px;
+    font-weight:800;
+    text-align: center;
+    color:#0dcaf0;
+}
+

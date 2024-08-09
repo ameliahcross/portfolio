@@ -1,0 +1,15 @@
+.card {
+    max-width: 400px; /* Ancho máximo para las tarjetas */
+    height: 100%; 
+}
+
+.card-img {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+.card-body {
+    padding: 30px;
+}

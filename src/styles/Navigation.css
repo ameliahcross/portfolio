@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+    .navbar-nav {
+    background-color: black;
+    border-radius: 10px;
+      }
+    .navbar-nav .nav-item .nav-link {
+      padding: 8px;
+    }
+    .nav-link {
+      padding: 10px 20px 10px 20px;
+    }
+    .nav-link:hover {
+      color: white;
+  }
+}
+
+#navbarSupportedContent {
+    position: relative;
+}
+
+ul{
+    position: absolute;
+    right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 4px solid transparent; 
+    transition: border-color 0.3s; 
+  }
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom-color: #0dcaf0;
+    color: white;
+}
+
+.fixed-top-nav {
+  position: sticky;
+  top: 0;
+}
