@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.50064bc7.css",
-    "main.js": "/portfolio/static/js/main.80a21cbc.js",
+    "main.js": "/portfolio/static/js/main.a9a8182d.js",
     "static/media/hablamoelmarte.png": "/portfolio/static/media/hablamoelmarte.088fa1f1a9dd476a8a0a.png",
     "static/media/majavi_menu_2.png": "/portfolio/static/media/majavi_menu_2.35f90435113a964e18d7.png",
     "static/media/itla_tv_desktop.png": "/portfolio/static/media/itla_tv_desktop.8cb59f2c781d63d15c14.png",
@@ -37,10 +37,10 @@
     "static/media/logoSDQ.jpeg": "/portfolio/static/media/logoSDQ.996abddb17edc6fe0a29.jpeg",
     "index.html": "/portfolio/index.html",
     "main.50064bc7.css.map": "/portfolio/static/css/main.50064bc7.css.map",
-    "main.80a21cbc.js.map": "/portfolio/static/js/main.80a21cbc.js.map"
+    "main.a9a8182d.js.map": "/portfolio/static/js/main.a9a8182d.js.map"
   },
   "entrypoints": [
     "static/css/main.50064bc7.css",
-    "static/js/main.80a21cbc.js"
+    "static/js/main.a9a8182d.js"
   ]
 }
