@@ -32,6 +32,7 @@ import cajero from '../images/cajero_digital_dotnet.png';
 import streaming from '../images/itla_tv_desktop.png';
 import streaming_mobile from '../images/itla_tv_management_mobile.png';
 import bookstore from '../images/bookstore_mobile.png';
+import greendoor from '../images/greendoor_branding.jpg';
 
 // Arreglo de imagenes
 
@@ -54,7 +55,7 @@ const images2 = [
   },
   {
     url: streaming,
-    pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",
+    pieFoto: "UI/UX, software development | Streaming App - ASP .NET CORE",
   },
   {
     url: paginasA_redes,
@@ -66,7 +67,7 @@ const images2 = [
   },
   {
     url: cajero,
-    pieFoto: "UI/UX, software developement | Digital ATM - ASP .NET CORE",
+    pieFoto: "UI/UX, software development | Digital ATM - ASP .NET CORE",
   },
   {
     url: venaver,
@@ -91,7 +92,7 @@ const images2 = [
  
   {
     url: streaming_mobile,
-    pieFoto: "UI/UX, software developement | Streaming App - ASP .NET CORE",
+    pieFoto: "UI/UX, software development | Streaming App - ASP .NET CORE",
   },
   {
     url: insumisas,
@@ -115,7 +116,7 @@ const images2 = [
   // },
   {
     url: bookstore,
-    pieFoto: "UI/UX, software developement | Bookstore App - PHP",
+    pieFoto: "UI/UX, software development | Bookstore App - PHP",
   },
   {
     url: optica,
@@ -148,6 +149,10 @@ const images2 = [
   {
     url: card3,
     pieFoto: "Branding | Business Card - Attorney and Notary Public"
+  },
+  {
+    url: greendoor,
+    pieFoto: "Branding | Real Estate"
   },
   
 ];

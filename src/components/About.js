@@ -27,7 +27,7 @@ function About() {
             <div id='text-container' className="col-12 col-lg-8 col-md-12 ">
               <div className="text-lg-start text-center mt-2">
                 <h1 className='name'>Amelia Henríquez Cross</h1>
-                <span className='fields'>UI/UX designer | Web Developer</span>
+                <span className='fields'>UI/UX Designer | Web Developer</span>
                 <div id='buttons-container' className='btn-container d-flex flex-column flex-md-row flex-md-row flex-sm-column flex-lg-row col-lg-4 col-md-6 col-sm-12'>
                   <Buttons
                     icon={<FaGraduationCap className='icono-grande'

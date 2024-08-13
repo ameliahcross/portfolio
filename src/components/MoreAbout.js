@@ -5,6 +5,8 @@ import logoUnibe from '../images/logoUnibe.png';
 import logoItla from '../images/itlalogo.webp';
 import logoSQD from '../images/logoSDQ.jpeg';
 import logoUdemy from '../images/logoUdemy.png';
+import googleCertificates from '../images/google_cert_logo.png';
+import logoEximedia from '../images/eximedia_logo.png';
 
 function MoreAbout() {
   return (
@@ -18,10 +20,10 @@ function MoreAbout() {
                 &#125;
             </p>
             <p>
-              Graduated in Advertising Communications from Universidad Iberoamericana de Santo Domingo.
+              Graduated in Advertising Communications from Universidad Iberoamericana de Santo Domingo (UNIBE).
               
               Now pursuing a technical degree in Software Development at Instituto Tecnológico de Las Américas (ITLA).
-              My current focus lies on web developement and UI/UX design.
+              My current focus lies on UI/UX Design and Web Development.
             </p>
           </div>
             <p className="brackets mt-4">
@@ -30,6 +32,13 @@ function MoreAbout() {
                 &#125;
             </p>
             <div className="row row-cols-1 row-cols-md-3 row-cols-xs-3 g-4 mt-2">
+                <EducationCards
+                    image={googleCertificates}
+                    imageAlt="logo-google-certificates"
+                    title="Google UX Design Certificate"
+                    text="Google Career Certificates"
+                    span="In progress" 
+                />
                 <EducationCards
                     image={logoItla}
                     imageAlt="logo-itla"
@@ -66,6 +75,13 @@ function MoreAbout() {
                     imageAlt="logo-itla"
                     title="Web Programming with Javascript"
                     text="Instituto Tecnológico de las Américas"
+                />
+                <EducationCards
+                    image={logoEximedia}
+                    imageAlt="logo-eximedia"
+                    title="Graphic Design Course"
+                    text="EXIMEDIA"
+                    imgStyle={{ marginTop: '40px' }} 
                 />
             </div>
         </div>

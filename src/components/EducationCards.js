@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/EducationCards.css';
 
 function EducationCards(props) {
-
 	return (
     <div className="col-sm-6">
       <div className="card ">
@@ -12,7 +11,7 @@ function EducationCards(props) {
           <div className="card-text">
             {props.text}
           </div>
-          <span>
+          <span style={{ color: '#b133ff', fontStyle: 'italic', fontWeight:'bold', backgroundColor:'' }}>
             {props.span}
           </span>
         </div>
