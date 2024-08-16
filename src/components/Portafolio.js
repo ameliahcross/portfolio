@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/MoreAbout.css";
+import "../App.css";
 import MasonryGallery from "./MasonryGallery";
 
 function Portafolio() {
@@ -9,11 +10,7 @@ function Portafolio() {
       <div className="container mb-more">
         <div className="items-center text-center">
           <div className="row">
-            <p className="brackets mt-4"> 
-                  &#123;
-                  <span className="title-b">Portfolio</span> 
-                  &#125;
-            </p>
+              <h3 className="mt-3">Portfolio</h3> 
            <MasonryGallery/>
           </div>
         </div>

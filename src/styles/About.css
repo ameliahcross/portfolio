@@ -21,26 +21,17 @@
 
 .name{
     font-weight:900;
+    color: black;
 }
 
 .fields{
-    color: #0dcaf0;
-    font-weight: 900;
-    letter-spacing: 0.7px;
-
-}
-
-#img-container {
-    /* border: 3px solid yellow; */
+    color: cornflowerblue;
+    font-weight: 400;
 }
 
 #text-container {
     /* border: 3px solid cornflowerblue; */
     color: white; 
-}
-
-#buttons-container {
-    /* border: 3px solid green; */
 }
 
 /* @media (min-width: 768px) {

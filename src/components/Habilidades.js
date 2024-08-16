@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 import "../styles/Habilidades.css";
 import { ProgressBar } from "react-bootstrap";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
@@ -9,18 +10,13 @@ import { DiJqueryLogo, DiDotnet } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa6";
 import { PiFileSqlFill } from "react-icons/pi";
 import { SiAdobexd, SiAdobeillustrator,  SiAdobephotoshop} from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
 
 function Habilidades() {
   return (
     <section id="habilidades">
       <div className="container py-4 pb-4">
-        <p className="brackets-2 mt-4">
-          &#123;
-          <span className="title">Skills</span>
-          &#125;
-        </p>
-        <div className="row skill-info">
+        <h3 className="mt-4">Skills </h3>
+        <div className="row skill-info mt-5">
           <div className="col-sm-6 col-lg-3 mt-2">
             <SiAdobexd size={30} className="m-1 mar-right-4" />
             Adobe XD

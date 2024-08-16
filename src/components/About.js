@@ -28,7 +28,10 @@ function About() {
               <div className="text-lg-start text-center mt-2">
                 <h1 className='name'>Amelia Henríquez Cross</h1>
                 <span className='fields'>UI/UX Designer | Web Developer</span>
-                <div id='buttons-container' className='btn-container d-flex flex-column flex-md-row flex-md-row flex-sm-column flex-lg-row col-lg-4 col-md-6 col-sm-12'>
+                <p className='mt-5'> I am a product designer who loves creating useful, user-centric, delightful experience. <br /> </p>
+                <p>I value equity and collaboration, always ensuring that emotions are seamlessly integrated into every user experience.</p>
+                <p>Oh, and I can also code.</p>
+                {/* <div id='buttons-container' className='btn-container d-flex flex-column flex-md-row flex-md-row flex-sm-column flex-lg-row col-lg-4 col-md-6 col-sm-12'>
                   <Buttons
                     icon={<FaGraduationCap className='icono-grande'
                             style={{fill:'black', margin: '0 6px 3px 0'}} />}
@@ -53,7 +56,7 @@ function About() {
                     href='https://github.com/ameliahcross'
                     nombre='My code'
                   /> 
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

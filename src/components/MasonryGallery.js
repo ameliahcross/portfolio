@@ -201,7 +201,7 @@ function MasonryGallery() {
           </div>
         </div>
       )}
-      <div style={{ paddingTop: "10px" }}>
+      <div className="mt-5" style={{ paddingTop: "10px" }}>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3}}>
         <Masonry gutter="10px">
             {images2.map((image,i) => (
