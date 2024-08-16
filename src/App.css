@@ -6,6 +6,7 @@ body {
 h3{
   font-weight: 600;
   text-align: center;
+  color: black !important;
 }
 
 p {
@@ -26,19 +27,16 @@ p {
     box-shadow: 0px 4px 4px 0px white,inset 0 0 0 1000px rgba(255, 255, 255, 0.7)
   }
 
-  @media screen and (max-width: 767px) {
-    .bg-shared {
-      /* Estilos para el fondo compartido */
-      /* background-image: url('./images/keyboard4.png') !important; */
-      background-image: url('./images/white_keyboard-bg.jpg') !important;
-      background-size: 125%;
-      min-height: 100vh !important;
-      padding-bottom: 10%;
-      margin-top: auto !important;
-      /* background-color: aqua !important; */
-      /* border: 3px red solid; */
+    /* Estilos ipad */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .bg-shared {
+        background-image: url('./images/white_keyboard-bg.jpg') !important;
+        padding-bottom: 10%;
+        margin-top: auto !important;
+        min-height: 100vh !important;
+      }
     }
-  }
+
   .more-about-container {
     /* Estilos para la sección con el fondo diferente */
     background-color: white; /* o el color que sea para MoreAbout */

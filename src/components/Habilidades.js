@@ -16,71 +16,60 @@ function Habilidades() {
     <section id="habilidades">
       <div className="container py-4 pb-4">
         <h3 className="mt-4">Skills </h3>
-        <div className="row skill-info mt-5">
-          <div className="col-sm-6 col-lg-3 mt-2">
+        <h6 className="mt-5 text-center">Design </h6>
+        <div id="skills" className="row mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <SiAdobexd size={30} className="m-1 mar-right-4" />
             Adobe XD
-            <ProgressBar animated now={100} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <IoLogoFigma size={30} className="m-1 mar-right-4" />
             Figma
-            <ProgressBar animated now={90} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <SiAdobeillustrator size={30} className="m-1" />
             Adobe Illustrator
-            <ProgressBar animated now={90} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <SiAdobephotoshop size={30} className="m-1" />
             Adobe Photoshop
-            <ProgressBar animated now={80} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <h6 className="mt-5 text-center"> Software </h6>
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <FaHtml5 size={30} className="m-1" />
             HTML
-            <ProgressBar animated now={95} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <FaCss3Alt size={30} className="m-1" />
             CSS
-            <ProgressBar animated now={80} className="mt-2" />
           </div>
-          {/* <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <IoLogoJavascript size={30} className="m-1" />
             JavaScript
-            <ProgressBar animated now={70} className="mt-2" />
-          </div> */}
-          <div className="col-sm-6 col-lg-3 mt-2">
+          </div>
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <DiJqueryLogo size={30} className="m-1" />
             jQuery
-            <ProgressBar animated now={70} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <FaReact size={30} className="m-1" />
             React JS
-            <ProgressBar animated now={50} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <FaGitAlt size={30} className="m-1" />
             Git
-            <ProgressBar animated now={90} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <PiFileSqlFill size={30} className="m-1" />
             SQL
-            <ProgressBar animated now={70} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <SiCsharp size={30} className="m-1" />
             C#
-            <ProgressBar animated now={70} className="mt-2" />
           </div>
-          <div className="col-sm-6 col-lg-3 mt-2">
+          <div className="col-6 col-sm-4 col-lg-3 mt-4">
             <DiDotnet size={30} className="m-1" />
-            ASP.NET Core (MVC)
-            <ProgressBar animated now={80} className="mt-2" />
+            ASP.NET Core
           </div>
         </div>
       </div>

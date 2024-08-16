@@ -5,6 +5,7 @@ import Habilidades from './components/Habilidades';
 import MoreAbout from './components/MoreAbout';
 import Portafolio from './components/Portafolio';
 import Contacto from './components/Contact'
+import Work from './components/Work'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 import { FaCircleArrowUp } from "react-icons/fa6";
@@ -42,9 +43,10 @@ function App() {
         <About/>
       </div>
       <div className="more-about-container">
-        <MoreAbout/>
+        <Work/>
+        {/* <MoreAbout/> */}
         <Habilidades/>
-        <Portafolio/>
+        {/* <Portafolio/> */}
         <Contacto/>
       </div>
     </div>

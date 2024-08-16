@@ -19,7 +19,7 @@ function MoreAbout() {
             <h3 className="mt-5">
                 <span className="title-b">Education</span> 
             </h3>
-            <div className="row row-cols-1 row-cols-md-3 row-cols-xs-3 g-4 mt-2">
+            {/* <div className="row row-cols-1 row-cols-md-3 row-cols-xs-3 g-4 mt-2">
                 <EducationCards
                     image={googleCertificates}
                     imageAlt="logo-google-certificates"
@@ -71,7 +71,7 @@ function MoreAbout() {
                     text="EXIMEDIA"
                     imgStyle={{ marginTop: '40px' }} 
                 />
-            </div>
+            </div> */}
             <div className="row row-cols-1 row-cols-md-3 row-cols-xs-3 g-4 mt-2">
                 <EducationCards
                     image={googleCertificates}
@@ -80,7 +80,6 @@ function MoreAbout() {
                     text="Google Career Certificates"
                     span="In progress" 
                 />
-                <WorkCard/>
             </div>
         </div>
       </div>

@@ -1,22 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/EducationCards.css';
+import '../styles/WorkCard.css';
 import '../App.css';
 
 function WorkCard (props) {
 	return (
     <div className="col-sm-6">
-      <div className="card">
-        <img src={props.image} className="card-img-top card-img" alt={props.imageAlt} style={props.imgStyle}/>
-        <div className="card-body ">
-          <h5 className="card-title">{props.title}</h5>
-          <div className="card-text">
-            {props.text}
+    <a href={props.link} className="card-link">
+        <div className="work-card">
+          <div className="card-image">
+            <img src={props.image} alt={props.title} className="img-fluid" />
           </div>
-          <span style={{ color: 'cornflowerblue', fontStyle: 'italic', fontWeight:'bold', backgroundColor:'' }}>
-            {props.span}
-          </span>
+          <div className="card-overlay">
+            <h3 className="card-title">{props.title}</h3>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }

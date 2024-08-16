@@ -2,6 +2,8 @@
     .navbar-nav {
     color: black;
     background-color: rgb(255, 255, 255);
+    position:relative;
+    z-index: 1000 !important;
       }
     .navbar-nav .nav-item .nav-link {
       padding: 8px;
@@ -13,9 +15,14 @@
       color: white;
   }
 }
+#emoji{
+  font-size: large;
+  margin-top: 5px !important;
+}
 
 #hamburger-menu{
   border: none !important;
+  z-index: 1000 !important;
 }
 
 .navbar-toggler-icon {

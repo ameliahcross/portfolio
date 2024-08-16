@@ -29,7 +29,7 @@ function About() {
                 <h1 className='name'>Amelia Henríquez Cross</h1>
                 <span className='fields'>UI/UX Designer | Web Developer</span>
                 <p className='mt-5'> I am a product designer who loves creating useful, user-centric, delightful experience. <br /> </p>
-                <p>I value equity and collaboration, always ensuring that emotions are seamlessly integrated into every user experience.</p>
+                <p>I like to solve problems, always ensuring that emotions are seamlessly integrated into every user experience.</p>
                 <p>Oh, and I can also code.</p>
                 {/* <div id='buttons-container' className='btn-container d-flex flex-column flex-md-row flex-md-row flex-sm-column flex-lg-row col-lg-4 col-md-6 col-sm-12'>
                   <Buttons
