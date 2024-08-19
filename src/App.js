@@ -64,15 +64,15 @@ function App() {
           {/* Ruta para la página principal */}
           <Route path="/" element={
             <>
-             <SDNavigation />
-              {/* <div className='bg-shared'>
+             {/* <SDNavigation /> */}
+              <div className='bg-shared'>
                 <Navigation />
                 <About />
-              </div> */}
+              </div>
               <div className="more-about-container">
-                {/* <Work />
+                <Work />
                 <Habilidades />
-                <Contacto /> */}
+                <Contacto />
               </div>
             </>
           } />
@@ -94,7 +94,7 @@ function App() {
           <Route path="/projects/paginas-amarillas" element={<PaginasAmarillas />} />
           <Route path="/projects/plaza-de-la-cultura" element={<PlazaDeLaCultura />} />
           <Route path="/projects/saleo" element={<Saleo />} />
-          <Route path="/projects/sd-navigation" element={<SDNavigation />} />
+          <Route path="/projects/sd-navigation" element={<SDNavigation showBackArrow={true}  />} />
           <Route path="/projects/ven-aver" element={<VenAver />} />
           <Route path="/projects/violet-charm" element={<VioletCharm />} />
         </Routes>

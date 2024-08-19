@@ -26,7 +26,6 @@ import Lettering from '../../images/coffee_lettering.png';
 import PaginasA_Redes from '../../images/paginas-movil.jpg';
 import PaginasA_Imac from '../../images/paginas-ui2_high.jpg';
 import PaginasA_Macbook from '../../images/paginasA_macbook.jpg';
-import Purple_Ui from '../../images/purple_ui.png';
 import Optica from '../../images/optica.png';
 import Cajero from '../../images/cajero_digital_dotnet.png';
 import Streaming_Mobile from '../../images/itla_tv_management_mobile.png';
@@ -39,134 +38,135 @@ function Work() {
         {
             title: 'SD Navigation',
             image: Ui_1,
-            link: '../projects/SDNavigation'
+            link: '/projects/sd-navigation'
         },
         {
             title: 'My Stock',
             image: Ferreteria,
-            link: '../projects/Ferreteria'
+            link: '/projects/ferreteria'
         },
         {
             title: 'ITLA TV',
             image: Streaming_Desktop,
-            link: '../projects/ItlaTv'
+            link: '/projects/itla-tv'
         },
         {
             title: 'Anxietin',
             image: Anxietin,
-            link: '../projects/Anxiologica'
+            link: '/projects/anxiologica'
         },
         {
             title: 'Attorney',
             image: Card3,
-            link: '../projects/Attorney'
+            link: '/projects/attorney'
         },
         {
             title: 'Anxiologica Cards',
             image: Anxiologica_Cards,
-            link: '../projects/Anxiologica'
+            link: '/projects/anxiologica'
         },
         {
             title: 'Into Lettering',
             image: Into_Lettering,
-            link: '../projects/IntoLettering'
+            link: '/projects/into-lettering'
         },
         {
             title: 'Electrical engineer',
             image: Card1,
-            link: '../projects/ElectricalEngineer'
+            link: '/projects/electrical-engineer'
         },
         {
             title: 'Saleo',
             image: Card2,
-            link: '../projects/Saleo'
+            link: '/projects/saleo'
         },
         {
             title: 'Insumisas',
             image: Insumisas,
-            link: '../projects/Insumisas'
+            link: '/projects/insumisas'
         },
         {
             title: 'Plaza de la Cultura',
             image: Senaletica,
-            link: '../projects/PlazaDeLaCultura'
+            link: '/projects/plaza-de-la-cultura'
         },
         {
             title: 'Violet Charm',
             image: Violet,
-            link: '../projects/VioletCharm'
+            link: '/projects/violet-charm'
         },
         {
             title: 'Ven a Ver',
             image: Venaver,
-            link: '../projects/VenAver'
+            link: '/projects/ven-aver'
         },
         {
             title: 'Hablamo\' el Marte',
             image: Hablamoelmarte,
-            link: '../projects/HablamoElMarte'
+            link: '/projects/hablamos-el-marte'
         },
         {
             title: 'En Plan',
             image: Enplan,
-            link: '../projects/EnPlan'
+            link: '/projects/en-plan'
         },
         {
             title: 'Majavi',
             image: Majavi_Mobile,
-            link: '../projects/Majavi'
+            link: '/projects/majavi'
         },
         {
             title: 'Majavi',
             image: Majavi_Print,
-            link: '../projects/Majavi'
+            link: '/projects/majavi'
         },
         {
             title: 'Coffee Lettering',
             image: Lettering,
-            link: '../projects/CoffeeLettering'
+            link: '/projects/coffee-lettering'
         },
         {
             title: 'Páginas Amarillas',
             image: PaginasA_Redes,
-            link: '../projects/PaginasAmarillas'
+            link: '/projects/paginas-amarillas'
         },
         {
             title: 'Páginas Amarillas',
             image: PaginasA_Imac,
-            link: '../projects/PaginasAmarillas'
+            link: '/projects/paginas-amarillas'
         },
         {
             title: 'Páginas Amarillas',
             image: PaginasA_Macbook,
-            link: '../projects/PaginasAmarillas'
+            link: '/projects/paginas-amarillas'
         },
         {
             title: 'Optica Félix',
             image: Optica,
-            link: '../projects/OpticaFelix'
+            link: '/projects/optica-felix'
         },
         {
             title: 'Digital ATM',
             image: Cajero,
-            link: '../projects/DigitalAtm'
+            link: '/projects/digital-atm'
         },
         {
             title: 'ITLA TV Management',
             image: Streaming_Mobile,
-            link: '../projects/ItlaTv'
+            link: '/projects/itla-tv'
         },
         {
             title: 'Librería AHC',
             image: Bookstore,
-            link: '../projects/LibreriaAHC'
+            link: '/projects/libreria-ahc'
         },
         {
             title: 'Greendoor Branding',
             image: Greendoor,
-            link: '../projects/Greendoor'
+            link: '/projects/greendoor'
         }
     ];
+    
 
     return (
         <section id="work">

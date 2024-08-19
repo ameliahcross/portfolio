@@ -25,13 +25,12 @@
 }
 
 .fields{
-    color: cornflowerblue;
+    color: rgb(43, 181, 170);
     font-weight: 400;
 }
 
-#text-container {
-    /* border: 3px solid cornflowerblue; */
-    color: white; 
+#text-container h1{
+  text-align: left;
 }
 
 /* @media (min-width: 768px) {
