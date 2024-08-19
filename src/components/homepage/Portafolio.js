@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/MoreAbout.css";
-import "../App.css";
+import "../../styles/MoreAbout.css";
+import "../../App.css";
 import MasonryGallery from "./MasonryGallery";
 
 function Portafolio() {

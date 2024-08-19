@@ -1,10 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import fotoAmelia from '../images/foto_amelia.JPG';
-import { FaCode } from "react-icons/fa";
-import { FaGraduationCap } from "react-icons/fa6";
-import { HiBriefcase } from "react-icons/hi";
-import Buttons from './Buttons';
-import '../styles/About.css'
+import fotoAmelia from '../../images/foto_amelia.JPG';
+import '../../styles/About.css'
 
 function About() {
     return (

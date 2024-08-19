@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../App.css";
-import "../styles/Habilidades.css";
+import "../../App.css";
+import "../../styles/Habilidades.css";
 import { ProgressBar } from "react-bootstrap";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";

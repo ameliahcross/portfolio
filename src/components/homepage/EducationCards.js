@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/EducationCards.css';
+import '../../styles/EducationCards.css';
 
 function EducationCards(props) {
 	return (

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/Buttons.css';
+import '../../styles/Buttons.css';
 
 function Buttons(props) {
 	return (

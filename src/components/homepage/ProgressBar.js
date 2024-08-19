@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Habilidades.css";
+import "../../styles/Habilidades.css";
 import { ProgressBar } from 'react-bootstrap';
 
 function ProgressBar({ icon: Icon, label, percentage }) {

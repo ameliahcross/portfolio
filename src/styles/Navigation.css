@@ -41,12 +41,14 @@ a {
   color: black !important;
 }
 
-ul{
-    position: absolute;
+ .navbar-nav{
+    font-family: 'Josefin Sans', sans-serif !important;
+    position: relative;
     right: 0;
 }
 
 .navbar-nav .nav-item .nav-link {
+    font-family: 'Josefin Sans', sans-serif !important;
     position: relative;
     text-decoration: none;
     color: #ffffff;
@@ -55,7 +57,7 @@ ul{
   }
 
 .navbar-nav .nav-item .nav-link:hover {
-    border-bottom-color: #0dcaf0;
+    border-bottom-color: cornflowerblue;
     color: white;
 }
 

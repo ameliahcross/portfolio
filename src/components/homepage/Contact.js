@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Contact.css";
+import "../../styles/Contact.css";
 import { MdEmail, MdOutlinePhoneIphone } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -26,7 +26,7 @@ function Contact() {
         </div>
         <div className="row">
             <div className="col-12 mt-2 text-center text-secondary">
-              <small>©&nbsp;Amelia Henríquez Cross 2024 | Designer - Developer </small>         
+              <small>©&nbsp;Amelia Henríquez Cross 2024</small>         
             </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ body {
   color: black !important;
 }
 
-h3{
+h1, h3{
   font-weight: 600;
   text-align: center;
   color: black !important;
@@ -36,13 +36,6 @@ p {
         min-height: 100vh !important;
       }
     }
-
-  .more-about-container {
-    /* Estilos para la sección con el fondo diferente */
-    background-color: white; /* o el color que sea para MoreAbout */
-    width: 100%;
-    min-height: 100%;
-  }
   
   .arrow-icon{
     position: fixed;
