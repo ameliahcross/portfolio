@@ -7,8 +7,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/homepage/Navigation';
 import About from './components/homepage/About';
 import Habilidades from './components/homepage/Habilidades';
-import MoreAbout from './components/homepage/MoreAbout';
-import Portafolio from './components/homepage/Portafolio';
 import Contacto from './components/homepage/Contact'
 import Work from './components/homepage/Work'
 

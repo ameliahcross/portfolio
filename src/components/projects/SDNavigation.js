@@ -14,6 +14,11 @@ import p3 from '../../images/sdnavigation/p3.jpg';
 import p4 from '../../images/sdnavigation/p4.jpg';
 import p5 from '../../images/sdnavigation/p5.jpg';
 import p6 from '../../images/sdnavigation/p6.jpg';
+import usability1 from '../../images/sdnavigation/usability-1.png';
+import usability2 from '../../images/sdnavigation/usability_2.png';
+import usability3 from '../../images/sdnavigation/usability_table.png';
+import heatmap1 from '../../images/sdnavigation/heatmap_1.png';
+import heatmap2 from '../../images/sdnavigation/heatmap_2.png';
 
 function SDNavigation({ showBackArrow }) {
 const navigate = useNavigate();
@@ -32,6 +37,12 @@ return (
     <p className="project-info mar-bot-15">
       UX Design | UI Design | Design Challenge | 2022
     </p>
+    <p className='mt-5'> 
+      SD Navigation is a mobile application created to simplify public transportation.
+      As the Design Lead for this UX/UI challenge, I was responsible for designing key screens that demonstrated the core user experience. 
+      I focused on user research, wireframing, and high-fidelity prototypes, ensuring that the design was intuitive and visually appealing.
+      The challenge required creating only specific screens rather than the full flow, allowing me to highlight the essential aspects of the user interface.
+    </p>
     <img src={SDNavigation_1} className="img-fluid mt-5" alt="SD Navigation" />
     <div className="mar-top-100">
       <h3 className="mb-5">Problem</h3>
@@ -49,7 +60,9 @@ return (
       <p>
         SD Navigation is an intuitive application that guides users from
         their origin point to their destination using public transportation.
-        Based in the city of Santo Domingo, Dominican Republic.
+        Based in the city of Santo Domingo, Dominican Republic. This app offers a simple interface that allows users
+        to select their origin and destination quickly, with detailed routes, interactive maps,
+        and travel time and cost estimates. 
       </p>
     </div>
     <div className="mar-top-100">
@@ -259,7 +272,23 @@ return (
         </div>
       </div>
     </div>
-
+    {/* Usability test */}
+    <div className="mt-5">
+      <h3 className="mb-5 subtitle-aqua">Usability Test</h3>
+      <h5 className="mb-5">First-click test</h5>
+      <p>In order to evaluate the usability of key screens, I conducted a first-click test using <i>Optimal Workshop</i>.</p>
+      <p><b>Task 1:</b>. "Please enter your current location."</p>
+      <p className='mt-3'><b>Task Results:</b></p>
+      <img src={usability1} className="img-fluid mt-3 w-100 mx-auto d-block" alt="Wireframe" />
+      <p className='mt-3'><b>Clickmap:</b></p>
+      <img src={heatmap1} className="img-fluid mt-3 w-25 mx-auto d-block" alt="Clickmap" />
+      <p className='mt-3'><b>Task 2:</b>. "Tap to change the current destination (where you want to go) to another location."</p>
+      <p className='mt-3'><b>Task Results:</b></p>
+      <img src={usability2} className="img-fluid mt-3 w-100 mx-auto d-block" alt="Wireframe" />
+      <p className='mt-3'><b>Clickmap:</b></p>
+      <img src={heatmap2} className="img-fluid mt-3 w-25 mx-auto d-block" alt="Clickmap" />
+      <img src={usability3} className="img-fluid mt-3 w-100 mx-auto d-block" alt="Clickmap" />
+    </div>
   </div>
   <div className="mt-3 mx-5 my-5">
     <a className="navbar-brand" onClick={()=> navigate(-1)}

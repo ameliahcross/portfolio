@@ -3,12 +3,10 @@ import "../../styles/MoreAbout.css";
 import "../../App.css";
 import EducationCards from "./EducationCards";
 import WorkCard from './WorkCard';
-import Ferreteria from '../../images/ui_ferreteria_mobile.png';
-import SD_Navigation from '../../images/sdnavigation/location_app.png';
+import Ferreteria from '../../images/ferreteria/ferreteria_portada-03.png';
 import Streaming_Desktop from '../../images/itla_tv_desktop.png';
 import Anxietin from '../../images/anxiologica/anxietin.png';
 import Ui_1 from '../../images/sdnavigation/location_ui_high.png';
-import Ui_2 from '../../images/sdnavigation/location_app_ui_front.png';
 import Card3 from '../../images/card_ana.png';
 import Anxiologica_Cards from '../../images/anxiologica/anxiologica_cards.png';
 import Into_Lettering from '../../images/into_lettering.png';
@@ -29,7 +27,7 @@ import PaginasA_Macbook from '../../images/paginasA_macbook.jpg';
 import Optica from '../../images/optica.png';
 import Cajero from '../../images/cajero_digital_dotnet.png';
 import Streaming_Mobile from '../../images/itla_tv_management_mobile.png';
-import Bookstore from '../../images/bookstore_mobile.png';
+import Bookstore from '../../images/bookstore/bookstore_mobile.png';
 import Greendoor from '../../images/greendoor_branding.jpg';
 
 function Work() {
