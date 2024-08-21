@@ -8,6 +8,12 @@
     }
   }
 
+  @media (min-width: 300px)  and (max-width: 1024px){
+    .name{
+      text-align: center !important;
+    }
+  }
+
 
 .mar-max{
     margin: 200px 0px 0px 0px;

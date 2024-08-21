@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../App.css";
 import "../../styles/Contact.css";
 import { MdEmail, MdOutlinePhoneIphone } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";

@@ -32,7 +32,7 @@ useEffect(() => {
 return (
 <div>
   <Navigation showBackArrow={true} />
-  <div className="container my-5">
+  <div className="container project my-5">
     <h1>SD Navigation</h1>
     <p className="project-info mar-bot-15">
       UX Design | UI Design | Design Challenge | 2022
