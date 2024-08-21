@@ -20,13 +20,14 @@ function About() {
             </div>
   
             {/* Texto y botones */}
-            <div id='text-container' className="col-12 col-lg-8 col-md-12 ">
+            <div id='text-container' className="col-12 col-lg-8 col-md-12">
               <div className="text-lg-start text-center mt-2">
                 <h1 className='name'>Amelia Henríquez Cross</h1>
                 <span className='fields'>UI/UX Designer | Web Developer</span>
-                <p className='mt-5'> I am a product designer who loves creating useful, user-centric, delightful experience. <br /> </p>
-                <p>I like to solve problems, always ensuring that emotions are seamlessly integrated into every user experience.</p>
-                <p>Oh, and I can also code.</p>
+                <p className='mt-5'> I am a product designer passionate about creating beautiful and functional user experiences. <br /></p>
+                <p>I love solving problems through empathetic design, making sure every interaction feels seamless and user-friendly. Always eager to learn something new every day.
+                </p>
+                <p>Oh, and by the way, I also code!</p>
                 {/* <div id='buttons-container' className='btn-container d-flex flex-column flex-md-row flex-md-row flex-sm-column flex-lg-row col-lg-4 col-md-6 col-sm-12'>
                   <Buttons
                     icon={<FaGraduationCap className='icono-grande'

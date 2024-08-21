@@ -19,9 +19,9 @@ import form from '../../images/ferreteria/ferreteria_form.png';
 function SDNavigation({ showBackArrow }) {
 const navigate = useNavigate();
 
-// useEffect(() => {
-//   window.scrollTo(0, 0);
-// }, []);
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
 return (
 <div>
