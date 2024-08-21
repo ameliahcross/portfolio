@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dfcd6667.css",
-    "main.js": "/portfolio/static/js/main.41352e97.js",
+    "main.css": "/portfolio/static/css/main.af74278d.css",
+    "main.js": "/portfolio/static/js/main.df8754ee.js",
     "static/media/hablamoelmarte.png": "/portfolio/static/media/hablamoelmarte.088fa1f1a9dd476a8a0a.png",
     "static/media/majavi_menu_2.png": "/portfolio/static/media/majavi_menu_2.35f90435113a964e18d7.png",
     "static/media/wireframe_mystock.jpg": "/portfolio/static/media/wireframe_mystock.5085556c57b397203e4d.jpg",
@@ -56,11 +56,11 @@
     "static/media/into_lettering.png": "/portfolio/static/media/into_lettering.99618ed8f017bd4cb6c4.png",
     "static/media/p2.jpg": "/portfolio/static/media/p2.5a63e7a4f9409c4b6d20.jpg",
     "index.html": "/portfolio/index.html",
-    "main.dfcd6667.css.map": "/portfolio/static/css/main.dfcd6667.css.map",
-    "main.41352e97.js.map": "/portfolio/static/js/main.41352e97.js.map"
+    "main.af74278d.css.map": "/portfolio/static/css/main.af74278d.css.map",
+    "main.df8754ee.js.map": "/portfolio/static/js/main.df8754ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfcd6667.css",
-    "static/js/main.41352e97.js"
+    "static/css/main.af74278d.css",
+    "static/js/main.df8754ee.js"
   ]
 }
