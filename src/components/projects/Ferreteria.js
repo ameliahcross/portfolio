@@ -16,7 +16,8 @@ import mainScreen from '../../images/ferreteria/ferreteria_main_screen.png';
 import inventoryScreen from '../../images/ferreteria/ferreteria_product_list.png';
 import test_table from '../../images/ferreteria/ferreteria_table.png';
 import form from '../../images/ferreteria/ferreteria_form.png';
-function SDNavigation({ showBackArrow }) {
+
+function Ferreteria({ showBackArrow }) {
 const navigate = useNavigate();
 
 useEffect(() => {
@@ -266,4 +267,4 @@ return (
 );
 }
 
-export default SDNavigation;
+export default Ferreteria;

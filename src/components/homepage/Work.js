@@ -5,7 +5,7 @@ import EducationCards from "./EducationCards";
 import WorkCard from './WorkCard';
 import Ferreteria from '../../images/ferreteria/ferreteria_portada-03.png';
 import Streaming_Desktop from '../../images/itlatv/itla_tv_desktop.png';
-import Anxietin from '../../images/anxiologica/anxietin.png';
+import Anxiologica from '../../images/anxiologica/anxiologica_profile-03.jpg';
 import Ui_1 from '../../images/sdnavigation/location_ui_high.png';
 import Card3 from '../../images/card_ana.png';
 import Anxiologica_Cards from '../../images/anxiologica/anxiologica_cards.png';
@@ -52,21 +52,15 @@ function Work() {
             hasContent: false
         },
         {
-            title: 'Anxietin',
-            image: Anxietin,
+            title: 'Anxiologica',
+            image: Anxiologica,
             link: '/projects/anxiologica',
-            hasContent: false
+            hasContent: true
         },
         {
             title: 'Attorney',
             image: Card3,
             link: '/projects/attorney',
-            hasContent: false
-        },
-        {
-            title: 'Anxiologica Cards',
-            image: Anxiologica_Cards,
-            link: '/projects/anxiologica',
             hasContent: false
         },
         {
