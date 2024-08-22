@@ -36,7 +36,7 @@ function Anxiologica({ showBackArrow }) {
         the idea of giving the brand a playful, caricature-like element emerged spontaneously, reflecting both her unique
         approach and personality.
         </p>
-        <img src={Anxiologica_p} className="img-fluid" alt="SD Navigation" />
+        <img src={Anxiologica_p} className="img-fluid" alt="Anxiologica" />
         <div className="">
           <h3 className="mb-5">Concept</h3>
           <p>
@@ -51,11 +51,11 @@ function Anxiologica({ showBackArrow }) {
           The playful brain caricature reflects the target audience's need for reassurance in their journey to better
           mental health.
           </p>
-          <img src={Anxietin} className="img-fluid d-block mx-auto w-50" alt="SD Navigation" />
+          <img src={Anxietin} className="img-fluid d-block mx-auto w-50" alt="Anxiologica" />
         </div>
         <div className="mar-top-100">
           <h3 className="mb-5">Color Palette and Typography</h3>
-          <img src={Anxiologica_colors} className="img-fluid d-block mx-auto w-75" alt="SD Navigation" />
+          <img src={Anxiologica_colors} className="img-fluid d-block mx-auto w-75" alt="Anxiologica" />
         </div>
         <div className="mar-top-100">
           <h3 className="mb-5">Target Audience</h3>
@@ -82,18 +82,18 @@ function Anxiologica({ showBackArrow }) {
           </p>
           <div className="row mt-3">
             <div className="col-4">
-              <img src={instagram1} className="img-fluid mx-auto d-block" alt="SD Navigation" />
+              <img src={instagram1} className="img-fluid mx-auto d-block" alt="Anxiologica" />
             </div>
             <div className="col-4">
-              <img src={instagram2} className="img-fluid mx-auto d-block" alt="SD Navigation" />
+              <img src={instagram2} className="img-fluid mx-auto d-block" alt="Anxiologica" />
             </div>
             <div className="col-4">
-              <img src={instagram3} className="img-fluid mx-auto d-block" alt="SD Navigation" />
+              <img src={instagram3} className="img-fluid mx-auto d-block" alt="Anxiologica" />
             </div>
           </div>
-          <img src={card1} className="img-fluid mx-auto w-50 mt-5" alt="SD Navigation" />
-          <img src={card2} className="img-fluid mx-auto w-50" alt="SD Navigation" />
-          <img src={cards} className="img-fluid mx-auto mt-3" alt="SD Navigation" />
+          <img src={card1} className="img-fluid mx-auto w-50 mt-5" alt="Anxiologica" />
+          <img src={card2} className="img-fluid mx-auto w-50" alt="Anxiologica" />
+          <img src={cards} className="img-fluid mx-auto mt-3" alt="Anxiologica" />
         </div>
         </div>
       <div className="mt-3 mx-5 my-5">

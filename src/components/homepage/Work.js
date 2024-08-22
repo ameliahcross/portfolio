@@ -13,7 +13,7 @@ import Into_Lettering from '../../images/into_lettering.png';
 import Card1 from '../../images/miguel.png';
 import Card2 from '../../images/saleo.png';
 import Insumisas from '../../images/insumisas.png';
-import Senaletica from '../../images/senaletica.png';
+import Senaletica from '../../images/plazacultura/plaza_cultura_pp.jpg';
 import Violet from '../../images/violetcharm.png';
 import Venaver from '../../images/venaver_branding.png';
 import Hablamoelmarte from '../../images/hablamoelmarte.png';
@@ -49,7 +49,7 @@ function Work() {
             title: 'ITLA TV',
             image: Streaming_Desktop,
             link: '/projects/itla-tv',
-            hasContent: false
+            hasContent: true
         },
         {
             title: 'Anxiologica',
@@ -57,6 +57,12 @@ function Work() {
             link: '/projects/anxiologica',
             hasContent: true
         },
+            {
+                title: 'Plaza de la Cultura',
+                image: Senaletica,
+                link: '/projects/plaza-de-la-cultura',
+                hasContent: true
+            },
         {
             title: 'Attorney',
             image: Card3,
@@ -85,12 +91,6 @@ function Work() {
             title: 'Insumisas',
             image: Insumisas,
             link: '/projects/insumisas',
-            hasContent: false
-        },
-        {
-            title: 'Plaza de la Cultura',
-            image: Senaletica,
-            link: '/projects/plaza-de-la-cultura',
             hasContent: false
         },
         {
