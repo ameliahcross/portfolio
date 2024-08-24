@@ -25,7 +25,7 @@ const navigate = useNavigate();
 
 useEffect(() => {
   // Desplaza al tope de la página al cargar el componente
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
 }, []);
 
 
@@ -154,13 +154,21 @@ return (
             <div class="persona-image">
               <img src={Ana} alt="Persona Image" />
             </div>
-            <ul class="persona-info">
-              <li><strong>Age:</strong> 22</li>
-              <li><strong>Education:</strong> Currently pursuing a Bachelor's Degree</li>
-              <li><strong>Hometown:</strong> Los Rios, Santo Domingo, Dominican Republic</li>
-              <li><strong>Family:</strong> Lives alone, away from family. Has pets</li>
-              <li><strong>Occupation:</strong> College Student. Par-time job</li>
-            </ul>
+            <div className='row'>
+              <div className='col-6'>
+                <ul class="persona-info">
+                  <li><strong>Age:</strong> 22</li>
+                  <li><strong>Education:</strong> Currently pursuing a Bachelor's Degree</li>
+                  <li><strong>Hometown:</strong> Los Rios, Santo Domingo, Dominican Republic</li>
+                </ul>
+              </div>
+              <div className='col-6'>
+                <ul class="persona-info">
+                  <li><strong>Family:</strong> Lives alone, away from family. Has pets</li>
+                  <li><strong>Occupation:</strong> College Student. Par-time job</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="right-column">
             <div class="persona-goals">
@@ -187,6 +195,77 @@ return (
           safe transportation routes because she worries about getting lost, getting late to classesand feeling unsafe in an unfamiliar urban environment.
           </p>
         </div>
+      </div>
+      {/* Ana User Journey Map */}
+      <h4 className="mt-5 text-center">Ana - User Journey Map</h4>
+      <div className="journey-map table-responsive">
+        <p><strong>Goal:</strong> Navigate public transportation efficiently to reach her college on time.</p>
+        <table className="journey-table">
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Get ready to go</th>
+              <th>Walk around the streets</th>
+              <th>Identifies first bus</th>
+              <th>Follows route</th>
+              <th>Arrives at her destination</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><strong>Task List</strong></td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Looks up bus routes online or asks friends</li>
+                <li>2. Prepares her backpack and collect estimates for the bus fare</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Sometimes stops her walk to read signs</li>
+                <li>2. Asks around for guidance</li>
+                <li>3. Often goes down the wrong way</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Ask the bus driver for bus destination</li>
+                <li>2. Boards a bus unsure of the travel time</li>
+                <li>3. Puts hands in her pocket and starts counting money and asking for fares while people are waiting</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Tries to follow the route, hoping not to miss her stop</li>
+                <li>2. Asks the person next to her where they are going to see if they have the same stop</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Ask driver and other people for stop info</li>
+                <li>2. Gets out of the bus</li>
+                <li>3. Looks around to to check if she's where she should be</li>
+              </ul>
+            </td>
+          </tr>
+            <tr>
+              <td><strong>Feeling Adjective</strong></td>
+              <td>Lost, Uninformed </td>
+              <td>Frustrated, Impatient</td>
+              <td>Unsafe, Lost</td>
+              <td>Focused, Doubtful</td>
+              <td>Worried, Stressed</td>
+            </tr>
+            <tr>
+              <td><strong>Improvement Opportunities</strong></td>
+              <td>Simplify the staging process consolidating routes, fares, etc.</td>
+              <td>Create an app for real-time walking directions</td>
+              <td>Show live bus routes with step-by-step instructions</td>
+              <td>Highlight when to get off</td>
+              <td>Add multimedia options to identify places correctly</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div class="persona-profile mt-5">
         <h2 class="persona-name">Carlos</h2>
@@ -228,6 +307,74 @@ return (
             Carlos is a construction worker who relies on public transportation to get to work. He has a busy daily schedule, and any delays in his commute can cause significant issues. Carlos values a tool that can help him plan his routes efficiently, ensuring he gets to work on time and doesn't waste valuable time waiting at bus stops.
           </p>
         </div>
+      </div>
+       {/* Carlos User Journey Map */}
+       <h4 className="mt-5 text-center">Carlos - User Journey Map</h4>
+       <div className="journey-map table-responsive">
+        <p><strong>Goal:</strong> Get to work on time every day without stressing about transportation.</p>
+        <table className="journey-table">
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Get ready to go</th>
+              <th>Waits for the bus</th>
+              <th>Boards the bus</th>
+              <th>Follows the route</th>
+              <th>Arrives at work</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><strong>Task List</strong></td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Prepares for work and checks bus schedules</li>
+                <li>2. Leaves home hoping to catch the bus on time</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Stands at the bus stop waiting for the bus</li>
+                <li>2. Hopes the bus arrives on time</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Boards the bus and finds a seat</li>
+                <li>2. Starts counting money for the fare</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Tries to follow the route</li>
+                <li>2. Worries about missing his stop</li>
+              </ul>
+            </td>
+            <td>
+              <ul className='persona-info'>
+                <li>1. Gets off the bus</li>
+                <li>2. Checks if he has arrived at the correct location</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feeling Adjective</strong></td>
+            <td>Hopeful, Anxious</td>
+            <td>Impatient, Frustrated</td>
+            <td>Relieved, Focused</td>
+            <td>Worried, Doubtful</td>
+            <td>Relieved, Tired</td>
+          </tr>
+          <tr>
+            <td><strong>Improvement Opportunities</strong></td>
+            <td>Provide real-time bus tracking to reduce uncertainty</td>
+            <td>Offer estimated arrival times for buses</td>
+            <td>Automate fare payments to simplify the boarding process</td>
+            <td>Provide multimedia for guidance of when it's time to get off</td>
+            <td>Ensure accurate route and stop information for better confidence</td>
+          </tr>
+          </tbody>
+        </table>
       </div>
     </div>
     {/* Wireframes */}

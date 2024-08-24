@@ -43,7 +43,7 @@ function LibreriaAHC({ showBackArrow }) {
         <p className='mt-5 text-center'> 
         Librería AHC was an academic project where I worked on both UI/UX design and development.
         </p>
-        <img src={Libreria} className="img-fluid mt-5" alt="SD Navigation" />
+        <img src={Libreria} className="img-fluid mt-5" alt="bookstore" />
         <div className="mar-top-100">
             <h3 className="mb-5">Problem</h3>
             <p>

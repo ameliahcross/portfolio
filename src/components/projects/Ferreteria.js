@@ -21,7 +21,7 @@ function Ferreteria({ showBackArrow }) {
 const navigate = useNavigate();
 
 useEffect(() => {
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
 }, []);
 
 return (
@@ -159,6 +159,74 @@ return (
           </p>
         </div>
       </div>
+       {/* William User Journey Map */}
+      <h4 className="mt-5 text-center">William - User Journey Map</h4>
+      <div className="journey-map table-responsive">
+        <p><strong>Goal:</strong> Manage inventory directly from the sales floor without needing to go back to a desktop.</p>
+        <table className="journey-table">
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Assist customers on the sales floor</th>
+              <th>Check stock availability</th>
+              <th>Update inventory</th>
+              <th>Inform customers about stock</th>
+              <th>Complete the sale</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Task List</strong></td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Walks around the sales floor assisting customers.</li>
+                  <li>2. Moves between product aisles.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Uses the desktop computer to check stock levels.</li>
+                  <li>2. Often goes back and forth between the sales floor and the desktop.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Updates the inventory on the desktop.</li>
+                  <li>2. Finds it frustrating to not do this directly from the sales floor.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Tells customers about stock levels and availability.</li>
+                  <li>2. Needs to rely on memory or frequent trips to the desktop.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Completes the sale, hoping that the inventory is up to date.</li>
+                  <li>2. Records the sale manually or at the POS system.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Feeling Adjective</strong></td>
+              <td>Active, Engaged</td>
+              <td>Frustrated, Delayed</td>
+              <td>Inconvenienced, Inefficient</td>
+              <td>Unsure, Stressed</td>
+              <td>Relieved, Exhausted</td>
+            </tr>
+            <tr>
+              <td><strong>Improvement Opportunities</strong></td>
+              <td>Equip employees with mobile devices for real-time assistance</td>
+              <td>Implement a mobile inventory check system</td>
+              <td>Create an app for instant inventory updates on the sales floor</td>
+              <td>Enable real-time product information on handheld devices</td>
+              <td>Automate sale and inventory updates directly</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div class="persona-profile mt-5">
         <h2 class="persona-name">Maura</h2>
         <p class="persona-quote">"I need to ensure the store's inventory is always accurate, especially during peak hours"</p>
@@ -203,6 +271,75 @@ return (
           </p>
         </div>
       </div>
+       {/* Maura User Journey Map */}
+      <h4 className="mt-5 text-center">Maura - User Journey Map</h4>
+      <div className="journey-map table-responsive">
+        <p><strong>Goal:</strong> Oversee inventory levels and ensure all product information is accurate and up-to-date.</p>
+        <table className="journey-table">
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Monitor inventory</th>
+              <th>Generate reports</th>
+              <th>Identify low stock items</th>
+              <th>Replenish stock</th>
+              <th>Communicate with suppliers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Task List</strong></td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Regularly checks stock levels on the desktop system.</li>
+                  <li>2. Compares physical inventory with system records.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Generates sales and inventory reports.</li>
+                  <li>2. Reviews trends to adjust inventory levels.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Identifies products that are low in stock.</li>
+                  <li>2. Makes notes for future orders.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Orders new stock based on report data.</li>
+                  <li>2. Updates the system once the stock is replenished.</li>
+                </ul>
+              </td>
+              <td>
+                <ul className='persona-info'>
+                  <li>1. Contacts suppliers for product replenishment.</li>
+                  <li>2. Ensures timely delivery and updates system accordingly.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Feeling Adjective</strong></td>
+              <td>Organized, Responsible</td>
+              <td>Detailed, Focused</td>
+              <td>Concerned, Proactive</td>
+              <td>Relieved, Efficient</td>
+              <td>Engaged, Satisfied</td>
+            </tr>
+            <tr>
+              <td><strong>Improvement Opportunities</strong></td>
+              <td>Provide a real-time dashboard for monitoring inventory on all devices</td>
+              <td>Automate report generation with real-time data</td>
+              <td>Highlight low stock items automatically in the system</td>
+              <td>Allow direct integration of supplier orders from within the system</td>
+              <td>Streamline supplier communication through the app</td>
+            </tr>
+          </tbody>
+        </table>
+</div>
+
     </div>
     {/* Wireframes */}
     <div className="mar-top-100 ">
