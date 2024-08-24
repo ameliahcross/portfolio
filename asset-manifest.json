@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4d897a47.css",
-    "main.js": "/portfolio/static/js/main.6fcc59a7.js",
+    "main.css": "/portfolio/static/css/main.f4854618.css",
+    "main.js": "/portfolio/static/js/main.e3981606.js",
     "static/media/hablamoelmarte.png": "/portfolio/static/media/hablamoelmarte.088fa1f1a9dd476a8a0a.png",
     "static/media/itla_tv_screenshot.png": "/portfolio/static/media/itla_tv_screenshot.1cbf9887ec061f3fa299.png",
     "static/media/wireframes.jpg": "/portfolio/static/media/wireframes.c1e108a608947a1345c6.jpg",
@@ -89,11 +89,11 @@
     "static/media/armando_persona.avif": "/portfolio/static/media/armando_persona.50917ccf46cc7033a15b.avif",
     "static/media/susana_persona.avif": "/portfolio/static/media/susana_persona.9439825e5b44a07c467c.avif",
     "index.html": "/portfolio/index.html",
-    "main.4d897a47.css.map": "/portfolio/static/css/main.4d897a47.css.map",
-    "main.6fcc59a7.js.map": "/portfolio/static/js/main.6fcc59a7.js.map"
+    "main.f4854618.css.map": "/portfolio/static/css/main.f4854618.css.map",
+    "main.e3981606.js.map": "/portfolio/static/js/main.e3981606.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d897a47.css",
-    "static/js/main.6fcc59a7.js"
+    "static/css/main.f4854618.css",
+    "static/js/main.e3981606.js"
   ]
 }
