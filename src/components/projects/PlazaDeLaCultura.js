@@ -89,7 +89,7 @@ function PlazaDeLaCultura({ showBackArrow }) {
                 <img src={itlatv_mobile} className="img-fluid mx-auto w-75 mt-3 d-block" alt="plazacultura" /> */}
             </div>
             <div className="mar-top-100">
-                <h3 className="">Final Work</h3>
+                <h3 className="mb-5">Final Work</h3>
                 <p>
                 This signage system covers the main attractions of the area. Designed to be distributed throughout the Plaza de la Cultura,
                 guiding visitors along the paths to reach their desired destinations.

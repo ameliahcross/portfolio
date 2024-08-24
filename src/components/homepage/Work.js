@@ -18,12 +18,10 @@ import Violet from '../../images/violetcharm.png';
 import Venaver from '../../images/venaver_branding.png';
 import Hablamoelmarte from '../../images/hablamoelmarte.png';
 import Enplan from '../../images/enplan.png';
-import Majavi_Mobile from '../../images/majavi_mobile_high.png';
-import Majavi_Print from '../../images/majavi_menu_2.png';
+import Majavi_pp from '../../images/majavi/majavi_pp-02.jpg';
 import Lettering from '../../images/coffee_lettering.png';
 import PaginasA_Redes from '../../images/paginas-movil.jpg';
-import PaginasA_Imac from '../../images/paginas-ui2_high.jpg';
-import PaginasA_Macbook from '../../images/paginasA_macbook.jpg';
+import PaginasA_pp from '../../images/paginasamarillas/paginasamarillas_pp-02.jpg';
 import Optica from '../../images/optica.png';
 import Cajero from '../../images/digitalatm/cajero_digital_dotnet.png';
 import Streaming_Mobile from '../../images/itlatv/itla_tv_management_mobile.png';
@@ -57,16 +55,34 @@ function Work() {
             link: '/projects/anxiologica',
             hasContent: true
         },
-            {
-                title: 'Plaza de la Cultura',
-                image: Senaletica,
-                link: '/projects/plaza-de-la-cultura',
-                hasContent: true
-            },
+        {
+            title: 'Plaza de la Cultura',
+            image: Senaletica,
+            link: '/projects/plaza-de-la-cultura',
+            hasContent: true
+        },
+        {
+            title: 'Librería AHC',
+            image: Bookstore,
+            link: '/projects/libreria-ahc',
+            hasContent: true
+        },
         {
             title: 'Attorney',
             image: Card3,
             link: '/projects/attorney',
+            hasContent: false
+        },
+        {
+            title: 'Majavi',
+            image: Majavi_pp,
+            link: '/projects/majavi',
+            hasContent: false
+        },
+        {
+            title: 'Páginas Amarillas',
+            image: PaginasA_pp,
+            link: '/projects/paginas-amarillas',
             hasContent: false
         },
         {
@@ -118,39 +134,9 @@ function Work() {
             hasContent: false
         },
         {
-            title: 'Majavi',
-            image: Majavi_Mobile,
-            link: '/projects/majavi',
-            hasContent: false
-        },
-        {
-            title: 'Majavi',
-            image: Majavi_Print,
-            link: '/projects/majavi',
-            hasContent: false
-        },
-        {
             title: 'Coffee Lettering',
             image: Lettering,
             link: '/projects/coffee-lettering',
-            hasContent: false
-        },
-        {
-            title: 'Páginas Amarillas',
-            image: PaginasA_Redes,
-            link: '/projects/paginas-amarillas',
-            hasContent: false
-        },
-        {
-            title: 'Páginas Amarillas',
-            image: PaginasA_Imac,
-            link: '/projects/paginas-amarillas',
-            hasContent: false
-        },
-        {
-            title: 'Páginas Amarillas',
-            image: PaginasA_Macbook,
-            link: '/projects/paginas-amarillas',
             hasContent: false
         },
         {
@@ -163,18 +149,6 @@ function Work() {
             title: 'Digital ATM',
             image: Cajero,
             link: '/projects/digital-atm',
-            hasContent: false
-        },
-        {
-            title: 'ITLA TV Management',
-            image: Streaming_Mobile,
-            link: '/projects/itla-tv',
-            hasContent: false
-        },
-        {
-            title: 'Librería AHC',
-            image: Bookstore,
-            link: '/projects/libreria-ahc',
             hasContent: false
         },
         {

@@ -178,6 +178,10 @@ ul li {
     margin: 0 auto;  
 }
 
+.shadow-bg{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .custom-img {
   margin: 15px 0;
   width: 100%;
