@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f4854618.css",
-    "main.js": "/portfolio/static/js/main.e3981606.js",
+    "main.js": "/portfolio/static/js/main.9182b712.js",
     "static/media/hablamoelmarte.png": "/portfolio/static/media/hablamoelmarte.088fa1f1a9dd476a8a0a.png",
     "static/media/itla_tv_screenshot.png": "/portfolio/static/media/itla_tv_screenshot.1cbf9887ec061f3fa299.png",
     "static/media/wireframes.jpg": "/portfolio/static/media/wireframes.c1e108a608947a1345c6.jpg",
@@ -28,7 +28,6 @@
     "static/media/bookstore_ipad.png": "/portfolio/static/media/bookstore_ipad.1c7f6b8e5da13ebf52e0.png",
     "static/media/greendoor_branding.jpg": "/portfolio/static/media/greendoor_branding.affcf4d9329b3a6dbdc5.jpg",
     "static/media/heatmap.png": "/portfolio/static/media/heatmap.263979e2bb25675160f1.png",
-    "static/media/paginas-movil.jpg": "/portfolio/static/media/paginas-movil.412864504eca2bb76182.jpg",
     "static/media/bookstore_mobile9.png": "/portfolio/static/media/bookstore_mobile9.46fad6b1d06e869b5c12.png",
     "static/media/heatmap2.png": "/portfolio/static/media/heatmap2.772a03d78855c9ba5cc0.png",
     "static/media/anxietin-03.jpg": "/portfolio/static/media/anxietin-03.dd8b99c97fecf6a867fe.jpg",
@@ -76,7 +75,9 @@
     "static/media/table_heatmap.png": "/portfolio/static/media/table_heatmap.72825dacc1a2b9531d7d.png",
     "static/media/businesscard_anxiologica-02.jpg": "/portfolio/static/media/businesscard_anxiologica-02.8bd4123f7ce2cb6decb3.jpg",
     "static/media/plazacultura_p5.webp": "/portfolio/static/media/plazacultura_p5.b01e7948bad04d8fe60d.webp",
+    "static/media/attorney-02.png": "/portfolio/static/media/attorney-02.8f8d55b797e8eb8de8bf.png",
     "static/media/william_persona.jpg": "/portfolio/static/media/william_persona.481d42a9c4d1667ee5f0.jpg",
+    "static/media/attorney-03.png": "/portfolio/static/media/attorney-03.1faf438e3a6f3f25b0c1.png",
     "static/media/optica.png": "/portfolio/static/media/optica.34108124778782011348.png",
     "static/media/foto_amelia.JPG": "/portfolio/static/media/foto_amelia.4524ed7e3532b0b59225.JPG",
     "static/media/location_ui_high.png": "/portfolio/static/media/location_ui_high.5f5c2cd60d5654d45453.png",
@@ -90,10 +91,10 @@
     "static/media/susana_persona.avif": "/portfolio/static/media/susana_persona.9439825e5b44a07c467c.avif",
     "index.html": "/portfolio/index.html",
     "main.f4854618.css.map": "/portfolio/static/css/main.f4854618.css.map",
-    "main.e3981606.js.map": "/portfolio/static/js/main.e3981606.js.map"
+    "main.9182b712.js.map": "/portfolio/static/js/main.9182b712.js.map"
   },
   "entrypoints": [
     "static/css/main.f4854618.css",
-    "static/js/main.e3981606.js"
+    "static/js/main.9182b712.js"
   ]
 }
