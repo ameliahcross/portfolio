@@ -27,7 +27,7 @@ function Attorney({ showBackArrow }) {
             "AC" stands for the initials of a notary public lawyer from the city
             of Santo Domingo. For this occasion, I was asked to design a
             business card that faithfully reflects the client's profile: a
-            serious, responsible, elegant, trustworthy, and experienced woman.
+            responsible, elegant, trustworthy, and experienced woman.
           </p>
           <img
             src={CardAna}
