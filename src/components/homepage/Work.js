@@ -1,14 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/MoreAbout.css";
 import "../../App.css";
-import EducationCards from "./EducationCards";
 import WorkCard from './WorkCard';
 import Ferreteria from '../../images/ferreteria/ferreteria_portada-03.png';
 import Streaming_Desktop from '../../images/itlatv/itla_tv_desktop.png';
 import Anxiologica from '../../images/anxiologica/anxiologica_profile-03.jpg';
 import Ui_1 from '../../images/sdnavigation/location_ui_high.png';
-import Card3 from '../../images/card_ana.png';
-import Anxiologica_Cards from '../../images/anxiologica/anxiologica_cards.png';
+import Card3 from '../../images/attorney/attorney-02.png';
 import Into_Lettering from '../../images/into_lettering.png';
 import Card1 from '../../images/miguel.png';
 import Card2 from '../../images/saleo.png';
@@ -20,11 +18,9 @@ import Hablamoelmarte from '../../images/hablamoelmarte.png';
 import Enplan from '../../images/enplan.png';
 import Majavi_pp from '../../images/majavi/majavi_pp-02.jpg';
 import Lettering from '../../images/coffee_lettering.png';
-import PaginasA_Redes from '../../images/paginas-movil.jpg';
 import PaginasA_pp from '../../images/paginasamarillas/paginasamarillas_pp-02.jpg';
 import Optica from '../../images/optica.png';
 import Cajero from '../../images/digitalatm/cajero_digital_dotnet.png';
-import Streaming_Mobile from '../../images/itlatv/itla_tv_management_mobile.png';
 import Bookstore from '../../images/bookstore/bookstore_mobile.png';
 import Greendoor from '../../images/greendoor_branding.jpg';
 
@@ -68,10 +64,10 @@ function Work() {
             hasContent: true
         },
         {
-            title: 'Attorney',
+            title: 'Notary Lawyer',
             image: Card3,
             link: '/projects/attorney',
-            hasContent: false
+            hasContent: true
         },
         {
             title: 'Majavi',

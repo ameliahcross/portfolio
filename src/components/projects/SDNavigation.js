@@ -25,7 +25,7 @@ const navigate = useNavigate();
 
 useEffect(() => {
   // Desplaza al tope de la página al cargar el componente
-  // window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
 }, []);
 
 
@@ -155,15 +155,11 @@ return (
               <img src={Ana} alt="Persona Image" />
             </div>
             <div className='row'>
-              <div className='col-6'>
+              <div className='col-7'>
                 <ul class="persona-info">
                   <li><strong>Age:</strong> 22</li>
                   <li><strong>Education:</strong> Currently pursuing a Bachelor's Degree</li>
                   <li><strong>Hometown:</strong> Los Rios, Santo Domingo, Dominican Republic</li>
-                </ul>
-              </div>
-              <div className='col-6'>
-                <ul class="persona-info">
                   <li><strong>Family:</strong> Lives alone, away from family. Has pets</li>
                   <li><strong>Occupation:</strong> College Student. Par-time job</li>
                 </ul>

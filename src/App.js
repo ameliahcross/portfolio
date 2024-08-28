@@ -29,6 +29,7 @@ import Saleo from './components/projects/Saleo';
 import SDNavigation from './components/projects/SDNavigation';
 import VenAver from './components/projects/VenAver';
 import VioletCharm from './components/projects/VioletCharm';
+import Attorney from './components/projects/Attorney';
 
 function App() {
 
@@ -87,6 +88,7 @@ function App() {
           <Route path="/projects/into-lettering" element={<IntoLettering />} />
           <Route path="/projects/itla-tv" element={<ItlaTv />} />
           <Route path="/projects/libreria-ahc" element={<LibreriaAHC />} />
+          <Route path="/projects/attorney" element={<Attorney />} />
           <Route path="/projects/majavi" element={<Majavi />} />
           <Route path="/projects/optica-felix" element={<OpticaFelix />} />
           <Route path="/projects/paginas-amarillas" element={<PaginasAmarillas />} />
