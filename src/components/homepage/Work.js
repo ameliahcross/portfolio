@@ -7,22 +7,23 @@ import Streaming_Desktop from '../../images/itlatv/itla_tv_desktop.png';
 import Anxiologica from '../../images/anxiologica/anxiologica_profile-03.jpg';
 import Ui_1 from '../../images/sdnavigation/location_ui_high.png';
 import Card3 from '../../images/attorney/attorney-02.png';
-import Into_Lettering from '../../images/into_lettering.png';
-import Card1 from '../../images/miguel.png';
-import Card2 from '../../images/saleo.png';
-import Insumisas from '../../images/insumisas.png';
+import Into_Lettering from '../../images/intolettering/into_lettering.png';
+import Card1 from '../../images/business_cards/miguel.png';
+import Card2 from '../../images/saleo/saleo.png';
+import Insumisas from '../../images/insumisas/insumisas.png';
 import Senaletica from '../../images/plazacultura/plaza_cultura_pp.jpg';
-import Violet from '../../images/violetcharm.png';
-import Venaver from '../../images/venaver_branding.png';
-import Hablamoelmarte from '../../images/hablamoelmarte.png';
-import Enplan from '../../images/enplan.png';
+import Violet from '../../images/violetcharm/violetcharm.png';
+import Venaver from '../../images/venaver/venaver_branding.png';
+import Hablamoelmarte from '../../images/hablamoelmarte/hablamoelmarte.png';
+import Enplan from '../../images/enplan/enplan.png';
 import Majavi_pp from '../../images/majavi/majavi_pp-02.jpg';
-import Lettering from '../../images/coffee_lettering.png';
+import Lettering from '../../images/intolettering/coffee_lettering.png';
 import PaginasA_pp from '../../images/paginasamarillas/paginasamarillas_pp-02.jpg';
-import Optica from '../../images/optica.png';
+import Optica from '../../images/optica_felix/optica.png';
 import Cajero from '../../images/digitalatm/cajero_digital_dotnet.png';
 import Bookstore from '../../images/bookstore/bookstore_mobile.png';
-import Greendoor from '../../images/greendoor_branding.jpg';
+import Greendoor from '../../images/greendoor/greendoor_branding.jpg';
+import Prikys from '../../images/prikys_beermarket/prikys.png';
 
 function Work() {
    
@@ -37,6 +38,12 @@ function Work() {
             title: 'My Stock',
             image: Ferreteria,
             link: '/projects/ferreteria',
+            hasContent: true
+        },
+        {
+            title: 'Priky\'s Beer Market',
+            image: Prikys,
+            link: '/projects/prikys',
             hasContent: true
         },
         {

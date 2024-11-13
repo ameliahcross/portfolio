@@ -30,6 +30,7 @@ import SDNavigation from './components/projects/SDNavigation';
 import VenAver from './components/projects/VenAver';
 import VioletCharm from './components/projects/VioletCharm';
 import Attorney from './components/projects/Attorney';
+import Prikys from './components/projects/Prikys';
 
 function App() {
 
@@ -97,6 +98,7 @@ function App() {
           <Route path="/projects/sd-navigation" element={<SDNavigation showBackArrow={true}  />} />
           <Route path="/projects/ven-aver" element={<VenAver />} />
           <Route path="/projects/violet-charm" element={<VioletCharm />} />
+          <Route path="/projects/prikys" element={<Prikys />} />
         </Routes>
       </div>
     </Router>
